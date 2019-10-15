@@ -26,7 +26,7 @@ const data = Buffer.from(JSON.stringify(req.body.data), 'utf8').toString('hex');
 var key = req.body.key;
 
 multichain.publishFrom({from:actor_address, stream:stream_name, key:key , data:data }, (err, tx) => {
-uilogger.info("Registering",stream_name,"with key",key,"and value",data);
+uilogger.info("Registering into",stream_name,"with username",key,"and value",data);
    res.json({transactionId: tx});
    })
 }

@@ -1,7 +1,6 @@
 const init = require('../common/init.js');
 const jwt = require('jsonwebtoken');
 let config = require('../common/config.js');
-let middleware = require('../common/middleware.js');
 
 const multichain = init.getMultichain();
 
@@ -18,7 +17,6 @@ exports.login = async function (req, res) {
     userstream="bb_stream"
     let username = req.body.username;
     let password = req.body.password;
-    console.log("inut username pass is",username,password)
 
     var fetch_pass = new Promise(function (resolve, reject) {
     multichain.listStreamKeyItems({stream: userstream, key: username, verbose: false}, (err, tx) => {
@@ -26,13 +24,12 @@ exports.login = async function (req, res) {
    })
 })
     await fetch_pass.then(function (value) {
-     password_act = value[0];
-  //  var obj = JSON.stringify(value[0]);
-   // var par = JSON.parse(obj)
-	    console.log("par",password_act)
+     var password_act = hex_to_ascii(value[0].data);
+     var par = JSON.parse(password_act); 
+     var password_actual = par.password
 
     if (username && password) {
-      if (username === username && password === password_act) {
+      if (username === username && password === password_actual) {
         let token = jwt.sign({username: username},
           config.secret,
           { expiresIn: '24h' // expires in 24 hours
