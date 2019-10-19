@@ -16,7 +16,7 @@ exports.createChild = async function(req, res) {
       const items = queryResponse.data.items;
       const userObject = JSON.parse(items[items.length-1].data);
       const key = queryResponse.data.items[0].key;
-      const newUserObject = {...userObject, gender, name, dob, relation };
+      const newUserObject = {...userObject, child: { gender, name, dob, relation } };
       const stream = {
         "stream": "bb_stream",
         "key": key,
