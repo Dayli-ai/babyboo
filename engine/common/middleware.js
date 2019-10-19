@@ -11,17 +11,21 @@ let checkToken = (req, res, next) => {
   if (token) {
     jwt.verify(token, config.secret, (err, decoded) => {
       if (err) {
-        return res.json({
+        next({
           success: false,
           message: 'Token is not valid'
         });
+
       } else {
-        req.decoded = decoded;
-        next();
+        next({
+          success: true,
+          message: 'Token is valid',
+          data: decoded
+        })
       }
     });
   } else {
-    return res.json({
+    next({
       success: false,
       message: 'Auth token is not supplied'
     });
