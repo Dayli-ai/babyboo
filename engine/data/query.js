@@ -1,5 +1,4 @@
 const init = require('../common/init');
-var date = require('date-and-time');
 
 const log4js = init.getLog();
 const logger = log4js.getLogger('backend-logs');
