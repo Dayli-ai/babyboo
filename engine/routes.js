@@ -3,7 +3,7 @@
 //Define all the routes in the server running on multichain cluster
 module.exports = function routes(app) {
   //GET routes
-  app.get('/getUserInfo', require('./data/query').fetchDataByKey);
+  app.get('/getUserInfo', require('./users/userInfo').getUserInfo);
   app.get(
     '/',
     require('./common/middleware').checkToken,
