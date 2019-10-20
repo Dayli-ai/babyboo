@@ -7,9 +7,15 @@ exports.login = async function(req, res) {
   let password = req.body.password;
 
   const data = { username, password };
-  const response = await axios.post(`${url}/login`, data);
-  console.log(response);
-  res.json(response.data);
+  let response;
+  try {
+    response = await axios.post(`${url}/login`, data);
+    console.log(response);
+    res.json(response.data);
+  }catch(e) {
+    res.status(403).json(e.response.data);
+  }
+
 };
 
 exports.index = async function(req, res) {
