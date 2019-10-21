@@ -5,7 +5,12 @@ exports.getUserInfo = async (req, res) => {
 
   const {stream, key} = req.query;
   const response = await axios.get(`${url}/queryDataByKey?stream=${stream}&key=${key}`);
-  res.json(response.data);
+  const items = response.data.items;
+  let data = {}
+  if (items.length > 0) {
+     data = JSON.parse(items[items.length -1].data);
+  }
+  res.json(data);
 }
 
 
