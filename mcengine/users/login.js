@@ -24,7 +24,7 @@ exports.login = async function (req, res) {
    })
 })
     await fetch_pass.then(function (value) {
-     var password_act = hex_to_ascii(value[value.length].data);
+     var password_act = hex_to_ascii(value[value.length-1].data);
      var par = JSON.parse(password_act); 
      var password_actual = par.password
 
