@@ -6,6 +6,13 @@ const dotenv = require('dotenv').config(),
     shell = require('shelljs'),
     fs = require('fs');
 
+
+Date.prototype.addDays = function(days) {
+  var date = new Date(this.valueOf());
+  date.setDate(date.getDate() + days);
+  return date;
+}
+
 //Middleware declarations
 app.use(bodyParser.json());
 app.options('*', cors())
