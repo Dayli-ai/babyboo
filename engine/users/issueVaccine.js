@@ -22,16 +22,7 @@ exports.issueVaccine = async function(req, res) {
       const objectKey = Object.keys(childVaccine)[0];
       let childVaccineObj = childVaccine[objectKey];
       childVaccineObj = { ...childVaccines[objectKey], ...childVaccineObj,};
-      const childVaccineFound = childVaccines[objectKey].vaccines.find(
-        vaccine => vaccine.name === childVaccineObj.vaccine.name,
-      );
-      childVaccineFound.batchNumber = childVaccineObj.vaccine.batchNumber;
-      childVaccineFound.brand = childVaccineObj.vaccine.brand;
-      childVaccineFound.expDate = childVaccineObj.vaccine.expDate;
-      childVaccineFound.mfgDate = childVaccineObj.vaccine.mfgDate;
-      childVaccineFound.hospital = childVaccineObj.vaccine.hospital;
-     childVaccines[objectKey] = childVaccineObj;
-     delete childVaccineObj['vaccine'];
+      childVaccines[objectKey] = childVaccineObj;
       const newUserObject = { ...userObject, childVaccines };
       const stream = {
         stream: 'bb_stream',
