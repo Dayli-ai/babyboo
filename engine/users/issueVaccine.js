@@ -33,7 +33,7 @@ exports.issueVaccine = async function(req, res) {
 
       res.json(response.data);
     } else {
-      res.json(result);
+      res.status(403).json(result);
     }
   });
 };
