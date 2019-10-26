@@ -15,7 +15,7 @@ exports.getUserInfo = async (req, res) => {
       }
       res.json(data);
     }else {
-      res.json(result);
+      res.status(403).json(result);
     }
   });
 
