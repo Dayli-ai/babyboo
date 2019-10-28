@@ -1,7 +1,6 @@
 const axios = require('axios');
-const checkToken = require('../common/middleware').checkToken;
-
 const url = 'http://34.207.213.121:3000'
+const checkToken = require('../common/middleware').checkToken;
 
 exports.createChild = async function(req, res) {
   const { authorization } = req.headers;
@@ -36,9 +35,30 @@ exports.createChild = async function(req, res) {
      const nineMonths = new Date(dobConverted).addDays(273.75);
      const nineMonthsDate = `${sixMonths.getDate()}/${nineMonths.getMonth()+1}/${nineMonths.getFullYear()}`;
      emptyVaccines['9Months'].dueDate = nineMonthsDate;
+     const nineTo12Months = new Date(dobConverted).addDays(320);
+     const nineTo12MonthsDate = `${nineTo12Months.getDate()}/${nineTo12Months.getMonth()+1}/${nineTo12Months.getFullYear()}`;
+     emptyVaccines['9-12Months'].dueDate = nineTo12MonthsDate;
      const twelveMonths = new Date(dobConverted).addDays(365);
      const twelveMonthsDate = `${sixMonths.getDate()}/${twelveMonths.getMonth()+1}/${twelveMonths.getFullYear()}`;
      emptyVaccines['12Months'].dueDate = twelveMonthsDate;
+     const fifteenMonths = new Date(dobConverted).addDays(456.25);
+     const fifteenMonthsDate = `${fifteenMonths.getDate()}/${fifteenMonths.getMonth()+1}/${fifteenMonths.getFullYear()}`;
+     emptyVaccines['15Months'].dueDate = fifteenMonthsDate;
+     const sixteenToMonths = new Date(dobConverted).addDays(510);
+     const sixteenToMonthsDate = `${sixteenToMonths.getDate()}/${sixteenToMonths.getMonth()+1}/${sixteenToMonths.getFullYear()}`;
+     emptyVaccines['16-18Months'].dueDate = sixteenToMonthsDate;
+     const eighteenMonths = new Date(dobConverted).addDays(547.501);
+     const eighteenMonthsDate = `${eighteenMonths.getDate()}/${eighteenMonths.getMonth()+1}/${eighteenMonths.getFullYear()}`;
+     emptyVaccines['18Months'].dueDate = eighteenMonthsDate;
+     const twoYears = new Date(dobConverted).addDays(730);
+     const twoYearsDate = `${twoYears.getDate()}/${twoYears.getMonth()+1}/${twoYears.getFullYear()}`;
+     emptyVaccines['2Years'].dueDate = twoYearsDate;
+     const fourToSixYears = new Date(dobConverted).addDays(1825);
+     const fourToSixYearsDate = `${fourToSixYears.getDate()}/${fourToSixYears.getMonth()+1}/${fourToSixYears.getFullYear()}`;
+     emptyVaccines['4-6Years'].dueDate = fourToSixYearsDate;
+     const tenToTwelveYears = new Date(dobConverted).addDays(4015);
+     const tenToTwelveYearsDate = `${tenToTwelveYears.getDate()}/${tenToTwelveYears.getMonth()+1}/${tenToTwelveYears.getFullYear()}`;
+     emptyVaccines['10-12Years'].dueDate = tenToTwelveYearsDate;
       const newUserObject = {...userObject, child: { gender, name, dob, relation }, childVaccines: emptyVaccines };
       const stream = {
         "stream": "bb_stream",

@@ -40,7 +40,7 @@
     "weight": "",
     "vaccines": [
       {
-        "name": "BCG",
+        "name": "DTwP 1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -48,7 +48,7 @@
         "hospital": ""
       },
       {
-        "name": "OPV 0",
+        "name": "IPV 1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -56,14 +56,37 @@
         "hospital": ""
       },
       {
-        "name": "HEP-B1",
+        "name": "Hep-B2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "Hib 1",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "RV VACCINE 1",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "PCV 1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
         "batchNumber": "",
         "hospital": ""
       }
-
     ]
   },
 
@@ -74,7 +97,7 @@
     "weight": "",
     "vaccines": [
       {
-        "name": "BCG",
+        "name": "DTwP 2",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -82,7 +105,7 @@
         "hospital": ""
       },
       {
-        "name": "OPV 0",
+        "name": "IPV 2",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -90,7 +113,23 @@
         "hospital": ""
       },
       {
-        "name": "HEP-B1",
+        "name": "Hib 2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "RV VACCINE 2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "PCV 2",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -108,7 +147,7 @@
     "weight": "",
     "vaccines": [
       {
-        "name": "BCG",
+        "name": "DTwP 3",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -116,7 +155,7 @@
         "hospital": ""
       },
       {
-        "name": "OPV 0",
+        "name": "IPV 3",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -124,14 +163,29 @@
         "hospital": ""
       },
       {
-        "name": "HEP-B1",
+        "name": "Hib 3",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "RV VACCINE 3",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "PCV 3",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
         "batchNumber": "",
         "hospital": ""
       }
-
     ]
   },
 
@@ -142,7 +196,7 @@
     "weight": "",
     "vaccines": [
       {
-        "name": "BCG",
+        "name": "HEP-B3",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -150,22 +204,13 @@
         "hospital": ""
       },
       {
-        "name": "OPV 0",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": ""
-      },
-      {
-        "name": "HEP-B1",
+        "name": "OPV 1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
         "batchNumber": "",
         "hospital": ""
       }
-
     ]
   },
   "9Months": {
@@ -175,7 +220,7 @@
     "weight": "",
     "vaccines": [
       {
-        "name": "BCG",
+        "name": "MMR-1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -183,22 +228,29 @@
         "hospital": ""
       },
       {
-        "name": "OPV 0",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": ""
-      },
-      {
-        "name": "HEP-B1",
+        "name": "OPV 2",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
         "batchNumber": "",
         "hospital": ""
       }
-
+    ]
+  },
+  "9-12Months": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "TYPHOID CONJUGAE VACCINE",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
     ]
   },
   "12Months": {
@@ -208,30 +260,205 @@
     "weight": "",
     "vaccines": [
       {
-        "name": "BCG",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": ""
-      },
-      {
-        "name": "OPV 0",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": ""
-      },
-      {
-        "name": "HEP-B1",
+        "name": "HEP-A1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
         "batchNumber": "",
         "hospital": ""
       }
-
+    ]
+  },
+  "15Months": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "MMR 2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "VARICELLA 1",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "PCV BOOSTER",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
+    ]
+  },
+  "16-18Months": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "DTwP B1/DTaP B1",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "IPV B1",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "Hib B1",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
+    ]
+  },
+  "18Months": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "HEP-A2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
+    ]
+  },
+  "2Years": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "TYPHOID BOOSTER",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "CONJUGATE VACCINE",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
+    ]
+  },
+  "4-6Years": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "DTwP B2/DTaP B2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "OPV3/VARICELLA 2",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "MMR 3",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
+    ]
+  },
+  "10-12Years": {
+    "dueDate": "",
+    "givenDate": "",
+    "height": "",
+    "weight": "",
+    "vaccines": [
+      {
+        "name": "HEPATITIS B",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "TDAP",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "MMR",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "TYPHOID CONJUGAE VACCINE",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "VARICELLA",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      },
+      {
+        "name": "HPV",
+        "brand": "",
+        "mfgDate": "",
+        "expDate": "",
+        "batchNumber": "",
+        "hospital": ""
+      }
     ]
   }
 }
