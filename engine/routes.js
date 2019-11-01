@@ -13,6 +13,8 @@ module.exports = function routes(app) {
   //POST routes
   app.post('/registerUser', require('./users/register').createUser);
   app.post('/login', require('./users/login').login);
+  app.post('/fblogin', require('./users/fblogin').fblogin);
+
   app.post('/registerChild', require('./users/registerChild').createChild);
   app.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
 };

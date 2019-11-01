@@ -7,6 +7,7 @@ module.exports = function routes(app) {
     //POST routes
     app.post('/registerUser', require('./users/register').createUser);
     app.post('/login', require('./users/login').login);
+    app.post('/fblogin', require('./users/fblogin').fblogin);
     app.get('/',require('./common/middleware').checkToken, require('./users/login').index);
 
 }
