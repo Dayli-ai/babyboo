@@ -1,5 +1,5 @@
 {
-  "birth": {
+  "At Birth": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -36,7 +36,7 @@
     ]
   },
 
-  "6Weeks": {
+  "6 Weeks": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -79,7 +79,7 @@
         "givenDate": ""
       },
       {
-        "name": "RV VACCINE 1",
+        "name": "RV 1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -99,7 +99,7 @@
     ]
   },
 
-  "10Weeks": {
+  "10 Weeks": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -133,7 +133,7 @@
         "givenDate": ""
       },
       {
-        "name": "RV VACCINE 2",
+        "name": "RV 2",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -154,7 +154,7 @@
     ]
   },
 
-  "14Weeks": {
+  "14 Weeks": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -208,7 +208,7 @@
     ]
   },
 
-  "6Months": {
+  "6 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -234,7 +234,7 @@
       }
     ]
   },
-  "9Months": {
+  "9 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -260,14 +260,14 @@
       }
     ]
   },
-  "9-12Months": {
+  "9-12 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
     "weight": "",
     "vaccines": [
       {
-        "name": "TYPHOID CONJUGAE VACCINE",
+        "name": "TCV",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -277,7 +277,7 @@
       }
     ]
   },
-  "12Months": {
+  "12 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -294,7 +294,7 @@
       }
     ]
   },
-  "15Months": {
+  "15 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -310,7 +310,7 @@
         "givenDate": ""
       },
       {
-        "name": "VARICELLA 1",
+        "name": "Vericella 1",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -329,7 +329,7 @@
       }
     ]
   },
-  "16-18Months": {
+  "16-18 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -364,7 +364,7 @@
       }
     ]
   },
-  "18Months": {
+  "18 Months": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -381,7 +381,7 @@
       }
     ]
   },
-  "2Years": {
+  "2 Years": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -407,7 +407,7 @@
       }
     ]
   },
-  "4-6Years": {
+  "4-6 Years": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
@@ -423,7 +423,7 @@
         "givenDate": ""
       },
       {
-        "name": "OPV3/VARICELLA 2",
+        "name": "OPV3/Vericella 2",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
@@ -442,50 +442,14 @@
       }
     ]
   },
-  "10-12Years": {
+  "10-12 Years": {
     "dueDate": "",
     "givenDate": "",
     "height": "",
     "weight": "",
     "vaccines": [
       {
-        "name": "HEPATITIS B",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": "",
-        "givenDate": ""
-      },
-      {
         "name": "TDAP",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": "",
-        "givenDate": ""
-      },
-      {
-        "name": "MMR",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": "",
-        "givenDate": ""
-      },
-      {
-        "name": "TYPHOID CONJUGAE VACCINE",
-        "brand": "",
-        "mfgDate": "",
-        "expDate": "",
-        "batchNumber": "",
-        "hospital": "",
-        "givenDate": ""
-      },
-      {
-        "name": "VARICELLA",
         "brand": "",
         "mfgDate": "",
         "expDate": "",
