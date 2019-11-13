@@ -15,7 +15,7 @@ exports.resetPassword = async function(req, res) {
 
         if (items.length > 0) { //if user found then change password
           const userObject = JSON.parse(items[items.length-1].data);
-          const key = userObject.username;
+          const key = items[0].key;
           if(currentPassword !== userObject.password) return res.status(403).json(`CurrentPassword doesn't match`);
           const userData = {
             "stream": "bb_stream",
