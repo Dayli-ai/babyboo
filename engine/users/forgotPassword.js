@@ -22,8 +22,8 @@ exports.forgotPassword = async function(req, res) {
         secure: false,
         requireTLS: true,
         auth: {
-          user: 'thrinethra@statwig.com', // generated ethereal user
-          pass: 'apsd2002' // generated ethereal password
+          user: 'info@babyboo.in', // generated ethereal user
+          pass: 'hello@ind548' // generated ethereal password
         }
       });
       // send mail with defined transport object
