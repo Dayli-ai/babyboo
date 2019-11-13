@@ -5,7 +5,6 @@ const checkToken = require('../common/middleware').checkToken;
 exports.createChild = async function(req, res) {
   const { authorization } = req.headers;
  checkToken(req, res, async result => {
-   console.log(result);
    if(result.success) {
       const { data } = result;
       const { username } = data;
