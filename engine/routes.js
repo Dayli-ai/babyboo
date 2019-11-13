@@ -15,6 +15,7 @@ module.exports = function routes(app) {
   app.post('/login', require('./users/login').login);
   app.post('/fblogin', require('./users/fblogin').fblogin);
   app.post('/forgotPassword', require('./users/forgotPassword').forgotPassword);
+  app.post('/resetPassword', require('./users/resetPassword').resetPassword);
 
   app.post('/registerChild', require('./users/registerChild').createChild);
   app.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
