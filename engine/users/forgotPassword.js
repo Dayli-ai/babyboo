@@ -29,7 +29,7 @@ exports.forgotPassword = async function(req, res) {
       // send mail with defined transport object
       let info = await transporter.sendMail({
         from: 'mytu3nu@gmail.com', // sender address
-        to: 'mytu3nu@gmail.com', // list of receivers
+        to: `${username}`, // list of receivers
         subject: 'Password', // Subject line
         text: `Hello your password is ${password}`, // plain text body
       });
