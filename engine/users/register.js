@@ -9,6 +9,13 @@ exports.createUser = async (req, res) => {
     "key": key,
     "data":data
   };
+  const queryResponse = await axios.get(
+    `${url}/queryDataByKey?stream=bb_stream&key=${key}`,
+  );
+  const items = queryResponse.data.items;
+  if (items.length > 0) {
+    return res.status(403).json('Username/emailid already exists');
+  }
   const response = await axios.post(`${url}/registerUser`, userData);
   console.log(response);
   res.json(response.data);
