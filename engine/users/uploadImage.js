@@ -1,4 +1,5 @@
 //other imports and code will go here
+const axios = require('axios');
 const checkToken = require('../common/middleware').checkToken;
 
 exports.uploadImage = async function(req, res) {
