@@ -26,6 +26,7 @@ exports.uploadImage = async function(req, res) {
         }
 
       }catch(e) {
+        console.log('error in image upload', e);
         res.status(403).json(e);
       }
     }else {
