@@ -38,7 +38,7 @@ exports.uploadImage = async function(req, res) {
             }
 
           });*/
-
+          res.json('Success');
         }else { //if user not found
           res.status(403).json('User not found');
         }
