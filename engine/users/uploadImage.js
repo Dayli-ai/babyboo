@@ -10,7 +10,8 @@ exports.uploadImage = async function(req, res) {
         const stream = 'bb_stream';
         const qureyResponse = await axios.get(`${url}/queryDataByKey?stream=${stream}&key=${username}`);
         const items = qureyResponse.data.items;
-
+        console.log('file', req.files)
+        console.log('body', req.body);
         if (items.length > 0) { //if user found then change password
           fs.readFile(req.file.path,(err, contents)=> {
             if (err) {
