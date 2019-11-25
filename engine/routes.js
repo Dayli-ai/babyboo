@@ -1,5 +1,7 @@
 'use strict';
+var multer  = require('multer');
 
+var upload = multer({ dest: 'uploads/' }); //setting the default
 //Define all the routes in the server running on multichain cluster
 module.exports = function routes(app) {
   //GET routes
@@ -19,4 +21,5 @@ module.exports = function routes(app) {
 
   app.post('/registerChild', require('./users/registerChild').createChild);
   app.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
+  app.post('/uploadImage', upload.single('fileData'), require('./users/uploadImage').uploadImage);
 };
