@@ -21,7 +21,7 @@ exports.uploadImage = async function(req, res) {
             fs.mkdirSync(username);
           }
 
-          mv(req.files[0].path, username, function(err) {
+          mv(req.files[0].path, `${username}/${req.files[0].path}`, function(err) {
             // done. it tried fs.rename first, and then falls back to
             // piping the source file to the dest file and then unlinking
             // the source file.
