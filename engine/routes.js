@@ -1,7 +1,6 @@
 'use strict';
 var multer  = require('multer');
 
-var upload = multer({ dest: 'uploads/' }); //setting the default
 //Define all the routes in the server running on multichain cluster
 const Storage = multer.diskStorage({
   destination(req, file, callback) {
