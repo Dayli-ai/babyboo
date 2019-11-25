@@ -16,7 +16,7 @@ exports.uploadImage = async function(req, res) {
         console.log('file', req.files)
         console.log('body', req.body);
         if (items.length > 0) { //if user found then change password
-          fs.readFile(req.file.path,(err, contents)=> {
+          fs.readFile(req.files[0].path,(err, contents)=> {
             if (err) {
               console.log('Error: ', err);
             } else {
