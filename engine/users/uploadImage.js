@@ -17,12 +17,13 @@ exports.uploadImage = async function(req, res) {
         const items = qureyResponse.data.items;
         console.log('file', req.files)
         console.log('body', req.body);
+        const dir = `uploads/${username}`;
         if (items.length > 0) { //if user found then change password
-          if (!fs.existsSync(username)){
-            fs.mkdirSync(username);
+          if (!fs.existsSync(dir)){
+            fs.mkdirSync(dir);
           }
 
-          await moveFile(req.files[0].path, `${username}/photo.png`);
+          await moveFile(req.files[0].path, `${dir}/photo.png`);
           console.log('The file has been moved');
           /*mv(req.files[0].path, `${username}/${req.files[0].path}`, function(err) {
             // done. it tried fs.rename first, and then falls back to
