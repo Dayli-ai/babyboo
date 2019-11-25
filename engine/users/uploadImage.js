@@ -1,6 +1,7 @@
 //other imports and code will go here
 const axios = require('axios');
 const checkToken = require('../common/middleware').checkToken;
+const url = 'http://34.207.213.121:3000';
 
 exports.uploadImage = async function(req, res) {
   checkToken(req, res, async result => {
