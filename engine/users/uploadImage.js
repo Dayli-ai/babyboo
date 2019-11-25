@@ -22,7 +22,7 @@ exports.uploadImage = async function(req, res) {
             } else {
               console.log('File contents ', contents);
             }
-            res.json(response.data);
+            res.json(contents);
           });
         }else { //if user not found
           res.status(403).json('User not found');
