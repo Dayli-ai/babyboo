@@ -30,5 +30,5 @@ module.exports = function routes(app) {
 
   app.post('/registerChild', require('./users/registerChild').createChild);
   app.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
-  app.post('/uploadImage', upload.single('fileData'), require('./users/uploadImage').uploadImage);
+  app.post('/uploadImage', upload.array('photo', 3), require('./users/uploadImage').uploadImage);
 };
