@@ -22,7 +22,7 @@ exports.uploadImage = async function(req, res) {
             fs.mkdirSync(username);
           }
 
-          await moveFile(req.files[0].path, `${username}/photo`);
+          await moveFile(req.files[0].path, `${username}/photo.png`);
           console.log('The file has been moved');
           /*mv(req.files[0].path, `${username}/${req.files[0].path}`, function(err) {
             // done. it tried fs.rename first, and then falls back to
