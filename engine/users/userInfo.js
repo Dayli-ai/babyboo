@@ -1,5 +1,7 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3000'
+const fs = require('fs');
+const url = 'http://34.207.213.121:3000';
+const url1 = 'http://34.207.213.121:3001';
 const checkToken = require('../common/middleware').checkToken;
 
 exports.getUserInfo = async (req, res) => {
@@ -12,6 +14,10 @@ exports.getUserInfo = async (req, res) => {
       let data = {}
       if (items.length > 0) {
         data = JSON.parse(items[items.length -1].data);
+      }
+      const dir = `uploads/${key}`;
+      if (fs.existsSync(dir)){
+       data = { ...data, imageUrl: `${url1}/images/${key}/photo.png` }
       }
       res.json(data);
     }else {
