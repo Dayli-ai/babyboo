@@ -4,6 +4,7 @@ const fs = require('fs');
 const checkToken = require('../common/middleware').checkToken;
 const url = 'http://34.207.213.121:3000';
 const mv = require('mv');
+const moveFile = require('move-file');
 
 exports.uploadImage = async function(req, res) {
   checkToken(req, res, async result => {
@@ -21,12 +22,14 @@ exports.uploadImage = async function(req, res) {
             fs.mkdirSync(username);
           }
 
-          mv(req.files[0].path, `${username}/${req.files[0].path}`, function(err) {
+          await moveFile(req.files[0].path, `${username}/${req.files[0].filename}`);
+          console.log('The file has been moved');
+          /*mv(req.files[0].path, `${username}/${req.files[0].path}`, function(err) {
             // done. it tried fs.rename first, and then falls back to
             // piping the source file to the dest file and then unlinking
             // the source file.
             res.json('Success');
-          });
+          });*/
           /*fs.readFile(req.files[0].path,(err, contents)=> {
             if (err) {
               console.log('Error: ', err);
