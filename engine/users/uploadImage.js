@@ -3,6 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 const checkToken = require('../common/middleware').checkToken;
 const url = 'http://34.207.213.121:3000';
+const mv = require('mv');
 
 exports.uploadImage = async function(req, res) {
   checkToken(req, res, async result => {
@@ -16,14 +17,25 @@ exports.uploadImage = async function(req, res) {
         console.log('file', req.files)
         console.log('body', req.body);
         if (items.length > 0) { //if user found then change password
-          fs.readFile(req.files[0].path,(err, contents)=> {
+          if (!fs.existsSync(username)){
+            fs.mkdirSync(username);
+          }
+
+          mv(req.files[0].path, username, function(err) {
+            // done. it tried fs.rename first, and then falls back to
+            // piping the source file to the dest file and then unlinking
+            // the source file.
+            res.json('Success');
+          });
+          /*fs.readFile(req.files[0].path,(err, contents)=> {
             if (err) {
               console.log('Error: ', err);
             } else {
               console.log('File contents ', contents);
             }
-            res.json(contents);
-          });
+
+          });*/
+
         }else { //if user not found
           res.status(403).json('User not found');
         }
