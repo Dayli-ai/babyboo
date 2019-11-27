@@ -23,22 +23,18 @@ exports.forgotPassword = async function(req, res) {
         requireTLS: true,
         auth: {
           user: 'info@babyboo.in', // generated ethereal user
-          pass: 'hello@ind548' // generated ethereal password
+          pass: 'NetStar2019' // generated ethereal password
         }
       });
       // send mail with defined transport object
       let info = await transporter.sendMail({
-        from: 'mytu3nu@gmail.com', // sender address
+        from: 'info@babyboo.in', // sender address
         to: `${username}`, // list of receivers
         subject: 'Password', // Subject line
         text: `Hello your password is ${password}`, // plain text body
       });
 
       console.log('Message sent: %s', info.messageId);
-      // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
-      // Preview only available when sending through an Ethereal account
-      //  console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
       res.json('success');
     }
     else {

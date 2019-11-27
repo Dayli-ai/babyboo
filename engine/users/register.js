@@ -26,13 +26,13 @@ exports.createUser = async (req, res) => {
       secure: false,
       requireTLS: true,
       auth: {
-        user: 'thrinethra@statwig.com', // generated ethereal user
-        pass: 'apsd2002', // generated ethereal password
+        user: 'info@babyboo.in', // generated ethereal user
+        pass: 'NetStar2019', // generated ethereal password
       },
     });
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: 'mytu3nu@gmail.com', // sender address
+      from: 'info@babyboo.in', // sender address
       to: `${key}`, // list of receivers
       subject: 'Welcome to BabyBoo!', // Subject line
       text: `Hi ${data.name},
