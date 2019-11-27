@@ -16,7 +16,7 @@ exports.createUser = async (req, res) => {
     );
     const items = queryResponse.data.items;
     if (items.length > 0) {
-      // return res.status(403).json('Username/emailid already exists');
+       return res.status(403).json('Username/emailid already exists');
     }
     const response = await axios.post(`${url}/registerUser`, userData);
     console.log(response);
