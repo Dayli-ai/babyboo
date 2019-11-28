@@ -1,6 +1,8 @@
 const axios = require('axios');
 const url = 'http://34.207.213.121:3000'
 const checkToken = require('../common/middleware').checkToken;
+const emptyVaccinesData = require('../data/vaccinesempty.json');
+const milestone = require('../data/milestone.json');
 
 exports.createChild = async function(req, res) {
   const { authorization } = req.headers;
@@ -13,7 +15,6 @@ exports.createChild = async function(req, res) {
       const items = queryResponse.data.items;
       const userObject = JSON.parse(items[items.length-1].data);
       const key = queryResponse.data.items[0].key;
-     const emptyVaccinesData = require('../data/vaccinesempty.json');
      const emptyVaccines = Object.assign({}, emptyVaccinesData);
      emptyVaccines['At Birth'].dueDate = dob;
      const dobArray = dob.split("/");
@@ -58,7 +59,7 @@ exports.createChild = async function(req, res) {
      const tenToTwelveYears = new Date(dobConverted).addDays(4015);
      const tenToTwelveYearsDate = `${tenToTwelveYears.getDate()}/${tenToTwelveYears.getMonth()+1}/${tenToTwelveYears.getFullYear()}`;
      emptyVaccines['10-12 Years'].dueDate = tenToTwelveYearsDate;
-      const newUserObject = {...userObject, child: { gender, name, dob, relation }, childVaccines: emptyVaccines };
+      const newUserObject = {...userObject, child: { gender, name, dob, relation }, childVaccines: emptyVaccines, milestone };
       const stream = {
         "stream": "bb_stream",
         "key": key,
