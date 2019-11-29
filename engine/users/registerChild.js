@@ -59,7 +59,7 @@ exports.createChild = async function(req, res) {
      const tenToTwelveYears = new Date(dobConverted).addDays(4015);
      const tenToTwelveYearsDate = `${tenToTwelveYears.getDate()}/${tenToTwelveYears.getMonth()+1}/${tenToTwelveYears.getFullYear()}`;
      emptyVaccines['10-12 Years'].dueDate = tenToTwelveYearsDate;
-      const newUserObject = {...userObject, child: { gender, name, dob, relation }, childVaccines: emptyVaccines, milestone };
+      const newUserObject = {...userObject, child: { gender, name, dob, relation }, childVaccines: emptyVaccines };
       const stream = {
         "stream": "bb_stream",
         "key": key,
