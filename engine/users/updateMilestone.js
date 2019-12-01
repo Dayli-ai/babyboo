@@ -9,17 +9,12 @@ exports.updateMilestone = async function(req, res) {
       const { data } = result;
       const { username } = data;
       const { milestone } = req.body;
-      const queryResponse = await axios.get(`${url}/queryDataByKey?stream=bb_stream&key=${username}`);
-      const items = queryResponse.data.items;
-      const userObject = JSON.parse(items[items.length-1].data);
-      const key = queryResponse.data.items[0].key;
-      const newUserObject = {...userObject,  milestone };
       const stream = {
-        "stream": "bb_stream",
-        "key": key,
-        "data": newUserObject
+        "stream": "bb_data_stream",
+        "key": username,
+        "data": milestone
       }
-      const response = await axios.post(`${url}/registerUser`, stream);
+      const response = await axios.post(`${url}/registerMilestone`, stream);
 
       res.json(response.data);
    }else {

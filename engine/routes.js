@@ -15,6 +15,7 @@ const upload = multer({ storage: Storage })
 module.exports = function routes(app) {
   //GET routes
   app.get('/getUserInfo', require('./users/userInfo').getUserInfo);
+  app.get('/getMilestoneData', require('./users/milestoneInfo').getMilestoneInfo);
   app.get(
     '/',
     require('./common/middleware').checkToken,
@@ -23,6 +24,7 @@ module.exports = function routes(app) {
 
   //POST routes
   app.post('/registerUser', require('./users/register').createUser);
+  app.post('/updateMilestone', require('./users/updateMilestone').updateMilestone);
   app.post('/login', require('./users/login').login);
   app.post('/fblogin', require('./users/fblogin').fblogin);
   app.post('/forgotPassword', require('./users/forgotPassword').forgotPassword);

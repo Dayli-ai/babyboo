@@ -65,7 +65,13 @@ exports.createChild = async function(req, res) {
         "key": key,
         "data": newUserObject
       }
+      const milestoneStream = {
+        "stream": "bb_data_stream",
+        "key": key,
+        "data": milestone
+      }
       const response = await axios.post(`${url}/registerUser`, stream);
+      await axios.post(`${url}/registerMilestone`, milestoneStream);
 
       res.json(response.data);
    }else {
