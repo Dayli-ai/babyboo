@@ -6,6 +6,7 @@ module.exports = function routes(app) {
     app.get('/queryDataByKey', require('./data/query').fetchDataByKey);
     //POST routes
     app.post('/registerUser', require('./users/register').createUser);
+    app.post('/registerMilestone', require('./users/registerBigData').createBigUser);
     app.post('/login', require('./users/login').login);
     app.post('/fblogin', require('./users/fblogin').fblogin);
     app.get('/',require('./common/middleware').checkToken, require('./users/login').index);
