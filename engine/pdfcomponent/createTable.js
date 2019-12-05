@@ -545,9 +545,9 @@ th, td {
 </style>
 </head>
     <body>
-    <h2>Name: ${baby.name}</h2>
-<h2>BirthDate : ${baby.dob}</h2>
-<h2>Gender : ${baby.gender.toUpperCase()} </h2>
+    <h3>Name: ${baby.name}</h3>
+<h3>BirthDate : ${baby.dob}</h3>
+<h3>Gender : ${baby.gender.toUpperCase()} </h3>
       ${table}
     </body>
   </html>
@@ -588,7 +588,7 @@ const doesFileExist = filePath => {
     console.log('Succesfully created an HTML table');
 
     const options = { format: 'A4' ,  height: "14.9in",
-      width: "10in"};
+      width: "15in"};
     const dir = `uploads/${username}/index.pdf`;
     pdf.create(html, options).toFile(dir, function(err, res) {
       if (err) return console.log(err);
