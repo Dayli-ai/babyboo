@@ -17,7 +17,7 @@ exports.getUserInfo = async (req, res) => {
       }
       const dir = `uploads/${key}`;
       if (fs.existsSync(dir)){
-       data = { ...data, imageUrl: `${url1}/images/${key}/photo.png` }
+       data = { ...data, imageUrl: `${url1}/images/${key}/photo.png`, pdfUrl: `${url1}/images/${key}/index.pdf` }
       }
       res.json(data);
     }else {

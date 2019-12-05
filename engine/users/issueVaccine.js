@@ -1,7 +1,6 @@
 const axios = require('axios');
-const jwt = require('jsonwebtoken');
 const checkToken = require('../common/middleware').checkToken;
-
+const createPDF = require('../pdfcomponent/createTable');
 const url = 'http://34.207.213.121:3000';
 
 exports.issueVaccine = async function(req, res) {
@@ -30,6 +29,7 @@ exports.issueVaccine = async function(req, res) {
         data: newUserObject,
       };
       const response = await axios.post(`${url}/registerUser`, stream);
+      createPDF(childVaccines, userObject.child, username);
 
       res.json(response.data);
     } else {
