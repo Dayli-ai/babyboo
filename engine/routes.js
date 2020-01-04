@@ -31,6 +31,7 @@ module.exports = function routes(app) {
   app.post('/resetPassword', require('./users/resetPassword').resetPassword);
 
   app.post('/registerChild', require('./users/registerChild').createChild);
+  app.post('/updateDeviceToken', require('./users/updateDeviceToken').updateDeviceToken);
   app.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
   app.post('/uploadImage', upload.array('photo', 3), require('./users/uploadImage').uploadImage);
 };
