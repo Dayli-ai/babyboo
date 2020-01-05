@@ -41,6 +41,7 @@ const checkAndPushNotifications = async () => {
           const dueDateString = childDueDate.getDate() + '/' + (childDueDate.getMonth()+1)+ '/' + childDueDate.getFullYear();
 
           const reminderDate = new Date().addDays(2); // To send reminder before 2 days
+          console.log('Reminder Date', reminderDate);
           const reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
           if(reminderDateString === dueDateString) {
             // If reminder date is equal to due date send notification
