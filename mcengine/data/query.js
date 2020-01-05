@@ -16,11 +16,17 @@ exports.fetchDataByKey = function (req, res) {
         verbose: true
       }, (err, data) => {
         //res.setHeader('Access-Control-Allow-Origin', '*');
-        data.forEach(item => {
-          item.data = Buffer.from(item.data, 'hex').toString('utf8')
-        });
-        logger.info("Fetch data from",stream,"for the key",key);
-        res.json({items: data});
+        try{
+          data.forEach(item => {
+            item.data = Buffer.from(item.data, 'hex').toString('utf8')
+          });
+          logger.info("Fetch data from",stream,"for the key",key);
+          res.json({items: data});
+        }catch(e) {
+          console.log('error in fetching data');
+          res.json({items: []});
+        }
+
       });
     }catch(e) {
         console.log('error in fetching query');
