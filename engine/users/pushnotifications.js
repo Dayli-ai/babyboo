@@ -41,8 +41,9 @@ const checkAndPushNotifications = async () => {
           const dueDateString = childDueDate.getDate() + '/' + (childDueDate.getMonth()+1)+ '/' + childDueDate.getFullYear();
 
           let reminderDate = new Date().addDays(2); // To send reminder before 2 days
-          console.log('Reminder Date', reminderDate);
           let reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
+          console.log(`2 days Reminder Date, ${reminderDateString} for ${user}`);
+
           if(reminderDateString === dueDateString) {
             // If reminder date is equal to due date send notification
             console.log(`sending push notification for user ${user} ${key}`)
@@ -72,7 +73,7 @@ const checkAndPushNotifications = async () => {
 
           reminderDate = new Date().addDays(1);// To send reminder before 1 day
           reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
-
+          console.log(`1 day Reminder Date, ${reminderDateString} for ${user}`);
           if(reminderDateString === dueDateString) {
             // If reminder date is equal to due date send notification
             console.log(`sending push notification for user ${user} ${key}`)
