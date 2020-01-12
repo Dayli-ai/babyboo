@@ -5,7 +5,7 @@ function setTimerForNotifications() {
   setInterval(() => {
     console.log('Triggering Notifications');
     pushnotifications.checkAndPushNotifications();
-  }, 86400 * 1000);
+  }, 43200 * 1000);
 }
 pushnotifications.checkAndPushNotifications(); //Initial call
 setTimerForNotifications();

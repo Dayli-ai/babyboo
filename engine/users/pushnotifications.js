@@ -40,9 +40,9 @@ const checkAndPushNotifications = async () => {
           const childDueDate = new Date(dateFormatted);
           const dueDateString = childDueDate.getDate() + '/' + (childDueDate.getMonth()+1)+ '/' + childDueDate.getFullYear();
 
-          const reminderDate = new Date().addDays(2); // To send reminder before 2 days
+          let reminderDate = new Date().addDays(2); // To send reminder before 2 days
           console.log('Reminder Date', reminderDate);
-          const reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
+          let reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
           if(reminderDateString === dueDateString) {
             // If reminder date is equal to due date send notification
             console.log(`sending push notification for user ${user} ${key}`)
@@ -56,6 +56,36 @@ const checkAndPushNotifications = async () => {
               },
               data: {
                 body: '48 HRS left for next vaccine, hurry up',
+                title: 'Baby Boo Vaccine Reminder',
+                content_available: true,
+                priority: 'high',
+              },
+            };
+            axios.defaults.headers.common[
+              'Authorization'
+              ] = `key=AAAAVD9hswU:APA91bGTDcpQtJiISU9yPvzdbb0Hkg9BjXGKtZ2rJQKxFUCTKXQqVPYhnx6nGs4kGxJlZBZaX2PPKSGKyqis9TSW_fjtcmft_BYweHts9shrjU_jdaTqPFHoSNXMxhxA3m-WxKWTbnkb`;
+            await axios.post(
+              'https://fcm.googleapis.com/fcm/send',
+              notificationData,
+            );
+          }
+
+          reminderDate = new Date().addDays(1);// To send reminder before 1 day
+          reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
+
+          if(reminderDateString === dueDateString) {
+            // If reminder date is equal to due date send notification
+            console.log(`sending push notification for user ${user} ${key}`)
+            const notificationData = {
+              to: data.deviceToken,
+              notification: {
+                body: '24 HRS left for next vaccine, hurry up',
+                title: 'Baby Boo Vaccine Reminder',
+                content_available: true,
+                priority: 'high',
+              },
+              data: {
+                body: '24 HRS left for next vaccine, hurry up',
                 title: 'Baby Boo Vaccine Reminder',
                 content_available: true,
                 priority: 'high',
