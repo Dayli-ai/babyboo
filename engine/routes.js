@@ -56,4 +56,9 @@ module.exports = function routes(app) {
     upload.array('photo', 3),
     require('./users/uploadImage').uploadImage,
   );
+  app.post(
+    '/uploadImg',
+    upload.array('photo', 3),
+    require('./users/uploadImg').uploadImage,
+  );
 };

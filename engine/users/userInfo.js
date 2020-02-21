@@ -15,7 +15,15 @@ exports.getUserInfo = async (req, res) => {
       if (items.length > 0) {
         data = JSON.parse(items[items.length -1].data);
       }
-      const dir = `uploads/${key}`;
+      const  dir = `uploads/${key}`;
+      data.children && data.children.forEach( (child,i) => {
+        const dir = `uploads/${key}/child${i}`;
+        if (fs.existsSync(dir)){
+          child.imageUrl =  `${url1}/images/${key}/child${i}/photo.png`;
+          child.pdfUrl = `${url1}/images/${key}/child${i}/index.pdf`;
+        }
+
+      })
       if (fs.existsSync(dir)){
        data = { ...data, imageUrl: `${url1}/images/${key}/photo.png`, pdfUrl: `${url1}/images/${key}/index.pdf` }
       }
