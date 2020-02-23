@@ -22,7 +22,8 @@ exports.uploadImage = async function(req, res) {
         if (items.length > 0) { //if user found then change password
           let dir = `uploads/${username}/${childName}`;
           if (!fs.existsSync(dir)){
-            fs.mkdirSync(dir, { recursive: true });
+            fs.mkdir(dir, {recursive: true}, err => {});
+
           }
 
           await moveFile(req.files[0].path, `${dir}/photo.png`);
