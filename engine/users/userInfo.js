@@ -18,12 +18,15 @@ exports.getUserInfo = async (req, res) => {
       const  dir = `uploads/${key}`;
       data.children && data.children.forEach( (child,i) => {
         const dir = `uploads/${key}/child${i}`;
+        console.log('dir', dir);
         if (fs.existsSync(dir)){
           child.imageUrl =  `${url1}/images/${key}/child${i}/photo.png`;
           child.pdfUrl = `${url1}/images/${key}/child${i}/index.pdf`;
+          console.log('inside existsync', child);
         }
 
       })
+      console.log('children', data.children);
       if (fs.existsSync(dir)){
        data = { ...data, imageUrl: `${url1}/images/${key}/photo.png`, pdfUrl: `${url1}/images/${key}/index.pdf` }
       }
