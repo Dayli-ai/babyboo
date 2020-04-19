@@ -1,0 +1,1603 @@
+        {
+          "label": "Reacts strongly when separated from mother  needs to be close to him/her, especially in new places.",
+          "selected": false
+        }
+
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "12 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "First Steps.take first steps without support (between months 12 and 15, some children take a bit longer).",
+          "selected": false
+        },
+        {
+          "label": "Able to walk a few steps on toes while cruising using furniture as support.",
+          "selected": false
+        },
+        {
+          "label": " While standing is able to rotate chest 90 degrees.",
+          "selected": false
+        },
+        {
+          "label": " Can go from standing up to a sitting position without difficulty.",
+          "selected": false
+        },
+        {
+          "label": "Even if able to walk, might prefer crawling as a more efficient way of locomotion for a while.",
+          "selected": false
+        },
+        {
+          "label": "Able to crawl with one hand raised or while carrying an object.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Can firmly hold a crayon in his/her hand .",
+          "selected": false
+        },
+        {
+          "label": "  An improved pincer grasp allows better manipulation of thin objects like rings or strings  allows the baby to place small objects in bottles.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Object Grouping. might be able to group some items by shape (e.g., circle, square and triangle) and by primary  colors.",
+          "selected": false
+        },
+        {
+          "label":
+          "Imitation skills continue to improve replicates behaviors such as rubbing body with soap and feeding others.",
+          "selected": false
+        },
+        {
+          "label":
+          " Understands simple orders.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Says First Word With Intention.first recognizable words  might also point or look at the person or object while saying its name.",
+          "selected": false
+        },
+        {
+          "label":
+          "Can say about three words and understands many more.",
+          "selected": false
+        },
+        {
+          "label":
+          "Attempts to imitate lyrics or musical sounds of favourite songs.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Starts attempting to do more things alone, often realizing caregiver support is still required.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Solo Playing Begins. able to remain alone for longer periods of time  for  example, after waking up the baby  might play a few minutes before calling a parent.",
+          "selected": false
+        },
+        {
+          "label": "Using limited words and improved  body language, the baby can better communicate desires and needs.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "13 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Can stand without assistance for increasing lengths of time.",
+          "selected": false
+        },
+        {
+          "label": " Walks alone short distances with irregular unstable steps (between months 13-16).",
+          "selected": false
+        },
+        {
+          "label": "  Climbs stairs by crawling with much more ease.",
+          "selected": false
+        },
+        {
+          "label": "Increased interest in climbing onto cushions or low tables.",
+          "selected": false
+        },
+        {
+          "label": " Likes to move around by pushing objects like chairs because they provide an increased sense of stability.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Is able to remove the lid from a container when it is low pressure.",
+          "selected": false
+        },
+        {
+          "label": "When given a crayon, can make a few marks on a sheet of paper.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Repetition and Trial-and-Error. exhaustively interacts with objects in an effort to learn as much as possible about them.",
+          "selected": false
+        },
+        {
+          "label":
+          "Enjoys Experiment- Based Play.  “What happens if...?” For example, “What happens if I splash water out of the tub?”.",
+          "selected": false
+        },
+        {
+          "label":
+          "Greater interest in parts of the body, explores your eyes, ears and mouth with his fingers.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Combines Familiar Actions and  Words.for example, says “ Bye, bye” while waving goodbye.",
+          "selected": false
+        },
+        {
+          "label":
+          "Understands a broader range of simple instructions, especially if they are accompanied by gestures.",
+          "selected": false
+        },
+        {
+          "label":
+          "Begins to perceive language as a powerful tool to interact with others.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Can eat with a spoon although he will still spill a lot. It is easier for him to eat thick foods like puree.",
+          "selected": false
+        },
+        {
+          "label": "Can take off socks, hat and other items that are easily removable.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Learns to Ask for Help. uses limited vocabulary and body language to communicate with others nearby.",
+          "selected": false
+        },
+        {
+          "label": "Feels as if the world revolves around him/her, sharing is not a strength.",
+          "selected": false
+        },
+        {
+          "label": "Play is the primary mechanism by which he/she explores and relates to the world around her.",
+          "selected": false
+        },
+        {
+          "label": "Wants to do everything independently, but realizes that he/she still needs help.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "14 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Roll the Ball. is able to roll a ball toward a target with moderate accuracy.",
+          "selected": false
+        },
+        {
+          "label": "Incorporate other Movements while , Walking.for example, is able to stop and wave goodbye.",
+          "selected": false
+        },
+        {
+          "label": "Attempts to throw a ball overhead.",
+          "selected": false
+        },
+        {
+          "label": "Walks in an unstable fashion, frequently falling down and standing back up.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Turns pages in books with thin pages, usually four or five pages at once.",
+          "selected": false
+        },
+        {
+          "label": "The precision of his/her grasp continues to improve, can grab objects as they move slowly (a ball or a car).",
+          "selected": false
+        },
+        {
+          "label": "Builds towers of two levels with increasing ease and various types of objects.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Indicates Preferences.when presented with options, demonstrates a preference by pointing to it.",
+          "selected": false
+        },
+        {
+          "label":
+          "Use of “Tools”. makes use of “tools” to get objects that are otherwise out of direct reach.",
+          "selected": false
+        },
+        {
+          "label":
+          " Child’s capacity to imitate is increasingly sophisticated  imitates some basic  facial and verbal expressions and some animal and objects sounds.",
+          "selected": false
+        },
+        {
+          "label":
+          "Recognizes commonly visited locations.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          " Understands more than 20 words (many understand between 50 and 100).",
+          "selected": false
+        },
+        {
+          "label":
+          "Increased desire to communicate is evident, although still limited by small vocabulary.",
+          "selected": false
+        },
+        {
+          "label":
+          "Applies inflections to new words, for example, may raise the tone of voice when asking a question. “more?”.",
+          "selected": false
+        },
+        {
+          "label":
+          "The majority of the words the child understands are simple and concrete.Can also understand simple actions like, “Let’s dance”.",
+          "selected": false
+        },
+        {
+          "label":
+          "Frequent use of the word “no” in different contexts.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Able to suck through a straw.",
+          "selected": false
+        },
+        {
+          "label": "Finishes pulling out his/ her own arms and legs as you help him/ her change out of him/her clothes.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Manifest a wide range of Emotions. for example, love, frustration and jealousy.",
+          "selected": false
+        },
+        {
+          "label": "Prefers familiar people to which he is frequently exposed  strangers can cause anxiety.",
+          "selected": false
+        },
+        {
+          "label": "Can entertain himself for a few minutes , as long as you are within sight.",
+          "selected": false
+        },
+        {
+          "label": "Separation from mom still causes anxiety, this will start decreasing at some point in the next four months.",
+          "selected": false
+        },
+        {
+          "label": "Seeks to share positive and negative emotions (successes and frustrations) with those which are closest.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "15 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Squatting while walking, is able to stop and squat to pick something up, then stand again and continue walking.",
+          "selected": false
+        },
+        {
+          "label": "Can roll a ball to you and receive it when you roll it back. Can do this several times, consecutively.",
+          "selected": false
+        },
+        {
+          "label": "If prompted, kicks a ball with low level of precision.",
+          "selected": false
+        },
+        {
+          "label": "Discovers the ability to carry objects from one place to the other while walking and does this at every opportunity.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":"Can insert and remove pegs on a toy pegboard.",
+          "selected": false
+        },
+        {
+          "label": "Spontaneously shows an interest in scribbling.",
+          "selected": false
+        },
+        {
+          "label": "Using a shape puzzle (square, triangle and circle), manipulates and inserts the circle in its place (other shapes may take more time).",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Ability to Anticipate.can begin to anticipate the trajectory of certain objects  knows where a ball will bounce or what direction a toy car will roll.",
+          "selected": false
+        },
+        {
+          "label":
+          "Initial Notions of the Concept of Quantity. for example, more bread or more water.",
+          "selected": false
+        },
+        {
+          "label":
+          "Physical development as well as development of other areas allow him/her to imitate social behaviors he/she frequently observes around him/her, such as sweep or clean.",
+          "selected": false
+        },
+        {
+          "label":
+          "Knows the various steps of each daily routine (bathing, nap time, supper, etc.).",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":"Uses Inexact Word Imitation. as a mechanism for language learning.",
+          "selected": false
+        },
+        {
+          "label": "Is able to verbally communicate many needs. For example, can ask for water.",
+          "selected": false
+        },
+        {
+          "label": "Increases the diversity of the intonation and pitch of voice in her babbling.",
+          "selected": false
+        },
+        {
+          "label":"Can usually make himself/herself understood and gets what he/she wants using facial gestures or body movements.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Can drink out of a cup with no lid with assistance.",
+          "selected": false
+        },
+        {
+          "label": "Attempts to comb or brush own hair.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Enjoys getting different reactions from those around him/her  enjoys flirting.",
+          "selected": false
+        },
+        {
+          "label": "More open to sharing with adults than other children.",
+          "selected": false
+        },
+        {
+          "label": "Remembers social routines and behaviors of those around him/her (saying hello or goodbye).",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "16 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Throw a Ball. is able to throw a ball with an overhead motion.",
+          "selected": false
+        },
+        {
+          "label": "Can Change Walking Speed.due to better control over movements.",
+          "selected": false
+        },
+        {
+          "label": "Climbing off Furniture Alone. for example, can climb off bed or chairs without help.",
+          "selected": false
+        },
+        {
+          "label": "Is able to lift one foot for a moment if leaning on a piece of furniture.",
+          "selected": false
+        },
+        {
+          "label": "Is able to walk backwards for a few steps.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label": "Can rip a piece of paper.",
+          "selected": false
+        },
+        {
+          "label": "Is able to press low pressure lids onto circular containers.",
+          "selected": false
+        },
+        {
+          "label": "Can guide a toy car or some similar toy back and forth on a path.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Body Parts.when asked, is able to point to a majority of the main parts of the body.",
+          "selected": false
+        },
+        {
+          "label":  "Follows and obeys more complex one-step commands.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": "Attempts to say the names of close relatives.",
+          "selected": false
+        },
+        {
+          "label": "Ability to fully pronounce remains limited, resulting in the use of simple names like Dada, Mama, Meema and Popop.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Shows interest in brushing own teeth.",
+          "selected": false
+        },
+        {
+          "label": "Is able to help pick up toys if you ask.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Initiates some social games with mom or dad, such as passing a ball back and forth.",
+          "selected": false
+        },
+        {
+          "label": "Displays limited patience (will easily throw a tantrum if not given what he wants).",
+          "selected": false
+        },
+        {
+          "label": "Will laugh hysterically at things baby finds cheerful or funny.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "17 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Climbs stairs holding your hand on one side and the handrail on the other.",
+          "selected": false
+        },
+        {
+          "label": "While walking, can make a sudden change of direction with more ease.",
+          "selected": false
+        },
+        {
+          "label": "Increased interest in climbing on progressively taller sofas, chairs and other furniture.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":"On a ring stacking toy, develops the ability to independently stack rings on the base.",
+          "selected": false
+        },
+        {
+          "label": "When drawing or painting on a pad or a , large surface, uses entire arm.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label":"Associates familiar people with their respective names.",
+          "selected": false
+        },
+        {
+          "label": "Can identify major parts of the body on others or in an image of a body.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":"His repertoire of words continues to  increase (e.g., adds words such as “thank you” or “come”).",
+          "selected": false
+        },
+        {
+          "label": "Adds the use of the word, “yes” to their vocabulary.",
+          "selected": false
+        },
+        {
+          "label":"Uses the word “mama” deliberately and proactively to get your attention.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Can use a fork with certain types of food, in a rudimentary fashion.",
+          "selected": false
+        },
+        {
+          "label": "Can drink from a cup without a lid on their own.",
+          "selected": false
+        },
+        {
+          "label": "Increasingly helps undress themselves, pulling out their arms as you hold his shirt sleeves or lifting each foot as you pull off the pants.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Norms of Courtesy. begins to understand basic courtesies such as saying “thank you”.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "18 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Ability to Walk in different Directions.when necessary, has the ability to walk sideways or backwards.",
+          "selected": false
+        },
+        {
+          "label": "Climbs up and down stairs holding your hand on one side and the handrail on the other.",
+          "selected": false
+        },
+        {
+          "label": "Able to walk fast  attempts to run short distances.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":"Place and Remove Lids. is able to place and remove low-pressure lids from differently shaped receptacles.",
+          "selected": false
+        },
+        {
+          "label": "Drawing Vertical Lines. attempts to imitate vertical lines (between months 18 and 20).",
+          "selected": false
+        },
+        {
+          "label": "Towers of Three or Four Blocks. is able to build towers of three or four blocks without assistance.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Spatial Awareness. has a basic understanding of the spatial location of objects and himself (above-below, inside-outside).",
+          "selected": false
+        },
+        {
+          "label":" Capacity to imitate allows him/her to replicate simple sounds and words (up to two syllables) that he/she hears.",
+          "selected": false
+        },
+        {
+          "label": "Increased attention span (e.g., able to follow a short story line).",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": "Vocabulary.child has a range of 10-20 words.",
+          "selected": false
+        },
+        {
+          "label": "Begins to combine words to make phrases such as, “more water.” " ,
+          "selected": false
+        },
+        {
+          "label":"Presence of echolalia (repetition of a word or a phrase several times).",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Helps wash /hisher own hands.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Enjoys many of his/her favorite games in the company of familiar adults.",
+          "selected": false
+        },
+        {
+          "label": "Can play by himself/herself for a few minutes without the presence of a parent.",
+          "selected": false
+        },
+        {
+          "label": "Interested in actions that solicit a response and social interaction (e.g., give and take games).",
+          "selected": false
+        },
+        {
+          "label": "Struggles to share toys with playmates.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "19 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Kick the Ball.can kick a ball with some precision.",
+          "selected": false
+        },
+        {
+          "label": "Improved coordination and balance allows dancing with some control and falling less frequently when walking.",
+          "selected": false
+        },
+        {
+          "label": "Able to jump in place with both feet at once.",
+          "selected": false
+        },
+        {
+          "label": "Is able to throw a ball progressively farther.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label": "Turns pages in books with thin pages, usually two or three pages at once.",
+          "selected": false
+        },
+        {
+          "label": "Can unwrap some small objects combining various fine motor skills and the ability to tear paper.",
+          "selected": false
+        },
+        {
+          "label": "Able to string beads with medium sized holes on to a firm cable.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": " Associates Objects with Activities.  for example, knows that soap and towel are used at bath time.",
+          "selected": false
+        },
+        {
+          "label":"Once completing an objective (e.g., finishing a basic puzzle), will repeat it  several times, which helps reinforce learning.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Initial Short Phrases. begins to use frequently heard two- or three-word phrases.",
+          "selected": false
+        },
+        {
+          "label":
+          " Says “yes” and “no” with more purpose.",
+          "selected": false
+        },
+        {
+          "label":
+          "First phrases include the minimum number of necessary words to make himself understood  (telegraphic language).",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Can pull up or pull off pants with elastic bands.",
+          "selected": false
+        },
+        {
+          "label": "Capable of bringing a spoon to mouth with greater precision.",
+          "selected": false
+        },
+        {
+          "label": "  During the next few months, tantrums can increase, which may sometimes make mealtime, bathtime and other selfCare routines more difficult.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": " Enjoys Dancing. uses dancing to express happiness and gain social acceptance.",
+          "selected": false
+        },
+        {
+          "label": "Aware of the presence of other children (still prefers to play alone). ",
+          "selected": false
+        },
+        {
+          "label": "Experiences a broader range of emotions (tantrums and biting can result from these new sensations).",
+          "selected": false
+        },
+        {
+          "label": "Need for independence will cause him to increasingly try things on his own.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "20 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Runs Short Distances.can run short distances with imprecise movements.",
+          "selected": false
+        },
+        {
+          "label": "Walks forward, backward and sideways , with ease  still struggles to do so on a narrow surface.",
+          "selected": false
+        },
+        {
+          "label": "Can climb up stairs using support on one hand only, needs support on both sides when climbing down stairs.",
+          "selected": false
+        },
+        {
+          "label": " Balance while walking continues to improve  can carry larger items without falling.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label": " Drawing Horizontal Lines. attempts to imitate horizontal lines (between months 20 and 22).",
+          "selected": false
+        },
+        {
+          "label": "Shape Puzzle.can complete a basic shape (square, triangle and circle) puzzle without assistance.",
+          "selected": false
+        },
+        {
+          "label": "Can open and close zippers.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": " Play based on Mental Representations.e.g., uses a box to represent a toy car, plays by moving it and making corresponding car sounds.",
+          "selected": false
+        },
+        {
+          "label":"Starts to understand that the reflection in the mirror is not another baby but rather himself.",
+          "selected": false
+        },
+        {
+          "label": "Motor skills, ability to imitate and spatial awareness allow her to replicate a variety of body movements during playtime or while dancing.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": "Decreased reliance on gestures and noises, as his repertoire of words increases.",
+          "selected": false
+        },
+        {
+          "label": "Combines words and body language to make herself better understood.",
+          "selected": false
+        },
+        {
+          "label":"Continues to use the same word in various forms. For example, will use the word wa-wa   for water, juice or milk.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "Speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": " Has the ability to use a spoon (to eat solid and semi-liquid food), a fork and drink from a cup with no lid.",
+          "selected": false
+        },
+        {
+          "label": "Able to help with low complexity household chores (e.g., clean up something that spilled).",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Imitates social behaviors of emotion and conduct, such as forms of celebration and dancing.",
+          "selected": false
+        },
+        {
+          "label": " Incorporates concepts like “mine” and “want” in social interactions motivated by his desire for independence.",
+          "selected": false
+        },
+        {
+          "label": "Demonstrates pride and pleasure upon completing an objective.",
+          "selected": false
+        },
+        {
+          "label": "Episodes of frustration start to become more frequent.",
+          "selected": false
+        },
+        {
+          "label": "Uses available toys to recreate desired adventures (such as playing with a toy plane as it could fly).",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "21 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": " Jumping Down.can jump down from a low height.",
+          "selected": false
+        },
+        {
+          "label": "Kicks a ball, follows it and kicks it again, , consecutively several times.",
+          "selected": false
+        },
+        {
+          "label": "Changes speed, stops and starts again , with greater ease while walking.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":" Towers of Four to Six Blocks. is able to build towers of four to six blocks (between months 21 and 24).",
+          "selected": false
+        },
+        {
+          "label": "Capable of turning round-shaped doorknobs.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Classify into Two Groups. is able to separate objects into two groups based on some characteristic such as size, color or shape.",
+          "selected": false
+        },
+        {
+          "label": "Concept of Size. has a basic understanding of the concept of size.",
+          "selected": false
+        },
+        {
+          "label": "Primary Colors. is able to identify some colors, usually the primary colors.",
+          "selected": false
+        },
+        {
+          "label": "Spatial Awareness. expanded comprehension of the spatial location of objects and himself (in front of or behind  above or below).",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": " Understands the concept of possessive pronouns like “mine”   and   “yours”.",
+          "selected": false
+        },
+        {
+          "label":"Uses two- and three-word phrases with some (still limited) frequency.",
+          "selected": false
+        },
+        {
+          "label": "Vocabulary and ability to pronounce some words clearly continues to improve on a daily basis.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": " Reduced Separation Anxiety.able to endure short spans of separation more easily.",
+          "selected": false
+        },
+        {
+          "label": "Able to spend more time with other kids, though not proactively interacting with them.",
+          "selected": false
+        },
+        {
+          "label": "More open to socializing with adults other than immediate family.",
+          "selected": false
+        },
+        {
+          "label": "Plays at imitating observed adult behaviors, for example, pretending to talk on the phone.",
+          "selected": false
+        },
+        {
+          "label": "Tests limits and rules set by parents by engaging in defiant behavior.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "22 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": " Wide Range of Motor Movements. navigates obstacles with increasing ease  for example, climbing over, under or walking sideways to overcome them.",
+          "selected": false
+        },
+        {
+          "label":"Able to climb up and down stairs with only one hand on the handrail (but likes to get support in both hands).",
+          "selected": false
+        },
+        {
+          "label": "When dancing, can speed up or slow down the body movements, depending on the rhythm of the music.",
+          "selected": false
+        },
+        {
+          "label": "Runs more frequently, does it in a straight line and have difficulty stopping suddenly.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          " Drawing Circles.attempts to imitate circular and semi-circular lines (between months 22 and 24).",
+          "selected": false
+        },
+        {
+          "label": "Able to roll a ball with higher accuracy due to better hand and finger control.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Day and Night.starts to understand the concept of day and night (which provides the foundation to eventually understand the concept of time).",
+          "selected": false
+        },
+        {
+          "label": "Formation of Numerical Concepts. understands the quantitative difference between one and many.",
+          "selected": false
+        },
+        {
+          "label": "Identifies basic shapes (e.g., square, circle, etc) when you mention them.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": " Uses Plurals. in some words or short phrases.",
+          "selected": false
+        },
+        {
+          "label": "Vocabulary. repertoire includes around , 25-35 words.",
+          "selected": false
+        },
+        {
+          "label": "Enjoys repeating any word or phrase that she finds interesting or funny.",
+          "selected": false
+        },
+        {
+          "label": "Babbling starts to diminish.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": " Participates more actively in bathing routine, helping lather soap, wash down and dry off.",
+          "selected": false
+        },
+        {
+          "label": "Tries to use napkins by herself.",
+          "selected": false
+        },
+        {
+          "label": "With a little help, is able to peel some easy-to-peel fruits, such as a banana.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Increased ability to express emotions (including demonstrations of affection and frustration).",
+          "selected": false
+        },
+        {
+          "label": "Likes to help you with frequently observed activities (e.g., if he sees you sweeping, he wants to do it too).",
+          "selected": false
+        },
+        {
+          "label": "Likes to share interesting things with you and will take you to them to show them to you.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "23 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": " Kick a Moving Ball.can kick a ball that is moving slowly towards him.",
+          "selected": false
+        },
+        {
+          "label": "Jump in Place.continues to try, feet barely leave the floor.",
+          "selected": false
+        },
+        {
+          "label": "Ability to run improves  some children can change direction rather than run only in a straight line.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label": "Folding Paper. if shown how, can fold a sheet of paper in half.",
+          "selected": false
+        },
+        {
+          "label": "Has the ability to manipulate small objects (e.g., can open a candy wrapper).",
+          "selected": false
+        },
+        {
+          "label": "Imitates several types of line drawing, but grip on the crayon continues to develop over several months.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": " Colors. identifies favorite colors in nearby objects.",
+          "selected": false
+        },
+        {
+          "label": "Recognizes some simple shapes upon holding them, without looking at them (a ball versus a cube).",
+          "selected": false
+        },
+        {
+          "label":"Memorizes parts of favorite songs.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": "Starts to identify people outside of the nuclear family by name.",
+          "selected": false
+        },
+        {
+          "label": "Capacity to imitate words improves greatly  can imitate simple new words immediately after hearing them.",
+          "selected": false
+        },
+        {
+          "label": "Says her name to refer to herself.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": " Can eat a variety of foods using utensils without assistance.",
+          "selected": false
+        },
+        {
+          "label": " Able to undress himself with minimum assistance.",
+          "selected": false
+        },
+        {
+          "label": "Capable of washing and drying hands with minimal help from you.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": " Increasingly enjoys the company of other children .",
+          "selected": false
+        },
+        {
+          "label": "Laughs with people as a mechanism for integration and social acceptance.",
+          "selected": false
+        },
+        {
+          "label": "Desire for independence continues, but continues to demand your constant attention.",
+          "selected": false
+        },
+        {
+          "label": "Displays egocentric behaviors centered on his needs and wants.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "24 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": " Climb Stairs Without Help.",
+          "selected": false
+        },
+        {
+          "label": "Able to climb into a ride-on toy car and push herself along with her feet.",
+          "selected": false
+        },
+        {
+          "label": "First attempts to jump forward with both  feet (hop forward).",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label": " Turning Pages of a Book turns the pages in a book or magazine one by one.",
+          "selected": false
+        },
+        {
+          "label": "Can copy vertical, horizontal and  circular lines (this skill with gradually improve over several months).",
+          "selected": false
+        },
+        {
+          "label": "Can complete a simple shape puzzle  even when shapes are mixed up and reversed.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Two-Step Commands.comprehends and executes instructions containing two or in some cases, three steps.",
+          "selected": false
+        },
+        {
+          "label": "Has a better understanding of the parts of the body, recognizes them and knows their function.",
+          "selected": false
+        },
+        {
+          "label":"Thinking Before Acting.the child capacity to form symbolic thoughts, allows him to think through and anticipate the consequences of his actions rather than acting impulsively.",
+          "selected": false
+        },
+        {
+          "label":"Her focus changes from exploring an object itself to understanding its functionality.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label": "Vocabulary.comprehends between 150 and 300 words and can use 50 or more of them (varies widely from child to child).",
+          "selected": false
+        },
+        {
+          "label": "Phrases of Three or Four Words. Begins to use phrases made of three or four words.",
+          "selected": false
+        },
+        {
+          "label":"Attempts to combine phrases, pausing , between one phrase and the next.",
+          "selected": false
+        },
+        {
+          "label": "Word repertoire includes familiar people , objects and several animals.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Able to comb or brush her own hair with minimal help from you.",
+          "selected": false
+        },
+        {
+          "label": "Tries to use a spoon to consume liquid or foods, although still spills much of it.",
+          "selected": false
+        },
+        {
+          "label": "Is capable of putting on some types of shoes (without laces and easy to slide into) .",
+          "selected": false
+        }
+
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+
+        {
+          "label": "Presence of Parallel Play. plays alongside children but not with them.",
+          "selected": false
+        },
+        {
+          "label": "Open to sharing space with other children, sometimes even sharing toys.",
+          "selected": false
+        },
+        {
+          "label": "Means to express emotions extend from actions to facial expressions.",
+          "selected": false
+        },
+        {
+          "label": "Although her sense of independence  continues to expand, she still has no concept of danger.",
+          "selected": false
+        }
+
+
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  }
+}

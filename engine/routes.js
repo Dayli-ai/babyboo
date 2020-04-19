@@ -28,6 +28,10 @@ module.exports = function routes(app) {
     '/getMilestoneData',
     require('./users/milestoneInfo').getMilestoneInfo,
   );
+  //app.get(
+   // '/getChildrenData',
+   // require('./users/childInfo').getChildrenInfo,
+  // );
   app.get(
     '/',
     require('./common/middleware').checkToken,
@@ -35,11 +39,15 @@ module.exports = function routes(app) {
   );
 
   //POST routes
-  app.post('/registerUser', require('./users/register').createUser);
+   app.post('/registerUser', require('./users/register').createUser);
   app.post(
     '/updateMilestone',
     require('./users/updateMilestone').updateMilestone,
   );
+  //app.post(
+  //  '/updateChildren',
+  //  require('./users/updateChildren').updateChildren,
+  // );
   app.post('/login', require('./users/login').login);
   app.post('/fblogin', require('./users/fblogin').fblogin);
   app.post('/forgotPassword', require('./users/forgotPassword').forgotPassword);
@@ -62,3 +70,4 @@ module.exports = function routes(app) {
     require('./users/uploadImg').uploadImage,
   );
 };
+

@@ -1,7 +1,7 @@
 const axios = require('axios');
 const checkToken = require('../common/middleware').checkToken;
 const createPDF = require('../pdfcomponent/createTable');
-const url = 'http://34.207.213.121:3000';
+const url = 'http://3.92.215.217:3000';
 
 exports.issueVaccine = async function(req, res) {
   const { authorization } = req.headers;

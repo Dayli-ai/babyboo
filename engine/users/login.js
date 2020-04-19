@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const url = 'http://34.207.213.121:3000'
+const url = 'http://3.92.215.217:3000'
 
 exports.login = async function(req, res) {
   let username = req.body.username;

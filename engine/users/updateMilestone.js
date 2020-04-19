@@ -1,5 +1,5 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3000'
+const url = 'http://3.92.215.217:3000'
 const checkToken = require('../common/middleware').checkToken;
 
 exports.updateMilestone = async function(req, res) {

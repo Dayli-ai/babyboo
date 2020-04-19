@@ -4,13 +4,16 @@
 module.exports = function routes(app) {
     //GET routes
     app.get('/queryDataByKey', require('./data/query').fetchDataByKey);
+    app.get('/queryMileStoneData', require('./data/query').fetchMileStoneData);
+    //app.get('/queryChildData', require('./data/query').fetchChildData);
+    app.get('/queryStreamKeys', require('./data/query').fetchStreamKeys);
+
     //POST routes
     app.post('/registerUser', require('./users/register').createUser);
+    app.post('/updateUser', require('./users/register').updateUser);
     app.post('/registerMilestone', require('./users/registerBigData').createBigUser);
+    //app.post('/registerChildren', require('./users/registerChildrenData').createChild);
     app.post('/login', require('./users/login').login);
     app.post('/fblogin', require('./users/fblogin').fblogin);
     app.get('/',require('./common/middleware').checkToken, require('./users/login').index);
-
 }
-
-

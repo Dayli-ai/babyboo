@@ -2,7 +2,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const checkToken = require('../common/middleware').checkToken;
-const url = 'http://34.207.213.121:3000';
+const url = 'http://3.92.215.217:3000';
 const mv = require('mv');
 const moveFile = require('move-file');
 

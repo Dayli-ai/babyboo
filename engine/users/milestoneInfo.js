@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-const url = 'http://34.207.213.121:3002';
+const url = 'http://3.92.215.217:3000';
 const checkToken = require('../common/middleware').checkToken;
 
 exports.getMilestoneInfo = async (req, res) => {

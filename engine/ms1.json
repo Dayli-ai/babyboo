@@ -1,0 +1,1603 @@
+{
+  "NewBorn": {
+    "Gross Motor": {
+      "values": [
+        {
+          "label": "Limited neck strength  requires support for the head.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+    },
+    "Fine Motor": {
+      "values": [
+        {
+          "label": "Presence of Palmar Grasp Reflex. Baby closes his/her fist when a small object is placed in his/her palm.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+
+      "values": [
+        {
+          "label": "Remains Alert 15-30% of the Time. Sleeps a significant part of the day.",
+          "selected": false
+        },
+        {
+          "label":  "Presence of All Primitive Reflexes. Involuntary movements that help them navigate early life e.g., sucking, palmar, grasp, plantar, Moro's, rooting, etc.",
+          "selected": false
+        },
+        {
+          "label":  "Presence of Plantar Reflex. A gentle stroke on the sole of the foot causes flexion of the toes.",
+          "selected": false
+        },
+        {
+          "label": "Presence of Sucking Reflex. Child sucks anything that touches the roof of their mouth.",
+          "selected": false
+        },
+        {
+          "label": "Presence of Moro's Reflex. The baby stretches his/her arms back and then retracts arms back as a reaction to a sudden loss of support or a sudden noise.",
+          "selected": false
+        },
+        {
+          "label":
+          "Presence of Rooting Reflex. Baby turns his/her head towards anything that strokes his/her cheek.",
+          "selected": false
+        },
+        {
+          "label": "Expects regular feeding intervals.",
+          "selected": false
+        },
+        {
+          "label": "Deliberately cries to ask for help.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+
+      "values":[
+        {
+          "label": "Produces basic high pitch noises.",
+          "selected": false
+        },
+        {
+          "label":
+          "Communicates Through Crying. Whimpers and cries are the primary means of communication.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+
+      "values" :[
+        {
+          "label": "Curious about human faces and objects with circles.",
+          "selected": false
+        },
+        {
+          "label": "Perceives light, its intensity and movement.",
+          "selected": false
+        },
+        {
+          "label": "Perceives changes in temperatures.",
+          "selected": false
+        }
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care": {
+      "values" :[
+        {
+          "label": "Sleeping, crying and eating patterns are still disorganized.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social-Emotional": {
+      "values" :[
+        {
+          "label":
+          "Responds to the human voice by looking at the person talking.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+  "1 Month": {
+    "Gross Motor": {
+      "values":[
+        {
+          "label":
+          "Extends arms and opens hands  hands remain clenched in a fist most of the time.",
+          "selected": false
+        },
+        {
+          "label": "Tries to maintain head upright for a few seconds.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+    },
+    "Fine Motor":{
+      "values": [
+        {
+          "label":
+          "Palmar grasp reflex still active  grabs others' fingers firmly if put in the palm of the hand.",
+          "selected": false
+        },
+        {
+          "label": "Moves closed hand towards objects.",
+          "selected": false
+        },
+        {
+          "label":
+          "Opens hand when you put an object in it  automatically closes it.",
+          "selected": false
+        }
+      ],
+
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values" : [
+        {
+          "label": "Studies and explores the movements of hands.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values" : [
+        {
+          "label":
+          "Starts developing a variety of coos and  gurgles (crying remains the main form of communication).",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values" : [
+        {
+          "label":
+          "Identifies Human Voice, can differentiate  from other sounds.",
+          "selected": false
+        },
+        {
+          "label": "Makes eye contact.",
+          "selected": false
+        },
+        {
+          "label": "Startles as a reaction to certain noises.",
+          "selected": false
+        }
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care": {
+      "values": [
+        {
+          "label":
+          "Identifies Human Voice, can differentiate  from other sounds.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values" : [
+        {
+          "label":
+          "Reacts to the presence of a person by moving his/her arms and legs, breathing heavily or gesturing.",
+          "selected": false
+        },
+        {
+          "label": "Expresses emotions, like pleasure, anxiety and excitement.",
+          "selected": false
+        },
+        {
+          "label": "Prefers people over objects.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+  "2 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Neck Strengthening. lifts head for a few seconds when prone.",
+          "selected": false
+        },
+        {
+          "label": "Applies pressure when feet are against something firm.",
+          "selected": false
+        },
+        {
+          "label": "Able to make a variety of head and neck movements.",
+          "selected": false
+        },
+        {
+          "label": "Attempts to lean on forearms when lying on the stomach.",
+          "selected": false
+        },
+        {
+          "label":
+          "Vigorous Limb Movement. moves arms and legs enthusiastically.",
+          "selected": false
+        },
+        {
+          "label": "Likes to be carried and maintained in an upright position.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Palmar grasp reflex starts to disappear and hands stay open for longer periods of time.",
+          "selected": false
+        },
+        {
+          "label": "Opens and closes hands.",
+          "selected": false
+        },
+        {
+          "label": "Hits objects hanging near fingertips.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Brings hand to mouth.",
+          "selected": false
+        },
+        {
+          "label":
+          "Expresses interest or excitement about something (e.g., feeding) through random arm and leg movements.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Reacts to sounds with a combination of  sighs, coos or gurgles.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values": [
+        {
+          "label":
+          "Sound Seeking. Looks for the source of a sound by turning head and neck.",
+          "selected": false
+        },
+        {
+          "label": "Looks at people's faces with increased attention.",
+          "selected": false
+        },
+        {
+          "label":
+          "Improved cross-sense coordination (e.g., sucks bottle and looks at it simultaneously while feeding).",
+          "selected": false
+        },
+        {
+          "label": "Pays attention to voices and unfamiliar noises.",
+          "selected": false
+        },
+        {
+          "label": "Enjoys listening when someone sings.",
+          "selected": false
+        },
+        {
+          "label": "Stops sucking or other activities to listen to new noises.",
+          "selected": false
+        }
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Extends arms toward bottle or breast.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Seeks attention when parents are nearby.",
+          "selected": false
+        },
+        {
+          "label": "Displays a varied range of expressions to show mood.",
+          "selected": false
+        },
+        {
+          "label": "Crying frequency starts to decrease.",
+          "selected": false
+        }
+      ],
+
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+  "3 Months": {
+    "Gross Motor": {
+      "values": [
+        {
+          "label":
+          "Head Control. raises head 45 degrees while lying face down and can hold head straight when held in a vertical position.",
+          "selected": false
+        },
+        {
+          "label":
+          "Turns head in all directions while lying on pillows or other types of support.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+    },
+    "Fine Motor":{
+      "values": [
+        {
+          "label": "Begins to develop hand-eye coordination.",
+          "selected": false
+        },
+        {
+          "label":
+          "Grabs Objects. sometimes able to grab and shake items with hands  still lacks accuracy.",
+          "selected": false
+        },
+        {
+          "label": "Pulls hanging objects and brings them to mouth.",
+          "selected": false
+        }
+      ],
+
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive":{
+      "values":[
+        {
+          "label":
+          "Imitation. can mimic some simple actions (e.g., opening and closing eyes and sticking out tongue).",
+          "selected": false
+        },
+        {
+          "label":
+          "Explores face using hands, discovering different features, including eyes and mouth.",
+          "selected": false
+        },
+        {
+          "label": "Looks at objects and tries to put them in mouth.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech":{
+      "values": [
+        {
+          "label":
+          "Combines gurgles and vocal play (isolated vowel-like and consonant-like sounds).",
+          "selected": false
+        },
+        {
+          "label":
+          "Pays attention to the sounds of words and listens to adult conversations.",
+          "selected": false
+        },
+        {
+          "label":
+          "Looks closely while opening and closing own hands.",
+          "selected": false
+        },
+        {
+          "label":
+          "Identifies and shows interest in smelling different types of scents.",
+          "selected": false
+        },
+        {
+          "label":
+          "Reacts excitedly when music starts  might protest when it stops.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Social - Emotional":{
+      "values": [
+        {
+          "label": "Smiles Often. easily and spontaneously.",
+          "selected": false
+        },
+        {
+          "label": "Responds positively to touch.",
+          "selected": false
+        }
+
+      ],
+
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Still Primarily Sleeping. at this age babies sleep around 15 hours per day (including naps).",
+          "selected": false
+        },
+        {
+          "label": "Sleeping, feeding and activity patterns begin to be   established.",
+          "selected": false
+        }
+
+      ],
+
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    }
+  },
+
+  "4 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Front to Back Roll.when face-down, might be able to move side to side until rolls over onto back (between months 4 and 5).",
+          "selected": false
+        },
+        {
+          "label": "Makes vigorous swimming-like movements.",
+          "selected": false
+        },
+        {
+          "label": "Able to put feet in mouth and suck toes.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Ulnar Palmar Grasp. grasps objects using outer or ulnar side of the palm without using the thumb.",
+          "selected": false
+        },
+        {
+          "label": "Two-Hand Hold. can hold objects with both hands.",
+          "selected": false
+        },
+        {
+          "label": "Reaches for objects with one or both hands.",
+          "selected": false
+        },
+        {
+          "label": " Wants to touch, grab, manipulate, shake and taste objects.",
+          "selected": false
+        },
+        {
+          "label": "Holds and drops objects but still not able to pick up.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "More deliberate movements  anticipatory adaptive movements begin (i.e., the baby extends arms and opens hands when seeing a desired toy).",
+
+          "selected": false
+        },
+        {
+          "label":
+          "Explores physical properties of objects (their weight, shape) and other characteristics, such as position and distance.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Interested in producing and imitating new sounds.",
+          "selected": false
+        },
+        {
+          "label":
+          "Might direct sounds toward nearby people, objects and toys.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values": [
+        {
+          "label":
+          "Eye-Body Coordination. increased capability (e.g., looks at an object and tries to reach it).",
+          "selected": false
+        },
+        {
+          "label": "Deliberately turns head toward an object.",
+          "selected": false
+        }
+
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "Sensory"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Enjoys bath time, lifts head when lying on his/her back in the tub.",
+          "selected": false
+        },
+        {
+          "label": "Feeding and sleeping schedules are increasingly established.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Social Skills. engages with other people  with preference for parents  smiles more openly.",
+          "selected": false
+        },
+        {
+          "label": "Actively looks around when in a new place, exploring surroundings.",
+          "selected": false
+        },
+        {
+          "label": "Laughs as a method of socializing  cries, when playtime is over or stopped.",
+          "selected": false
+        },
+        {
+          "label": " Learns that parents and caregivers respond to crying  may use it to get attention.",
+          "selected": false
+        }
+      ],
+
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+  "5 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Core Strength. lying face down, can adopt a superman-like position (arms and knees lifted, back arched).",
+          "selected": false
+        },
+        {
+          "label": "Able to lift chest up with arms when prone.",
+          "selected": false
+        },
+        {
+          "label": " Able to stay in a sitting position for a few seconds without assistance.",
+          "selected": false
+        },
+        {
+          "label": " Turns head freely in both directions.",
+          "selected": false
+        },
+        {
+          "label": " Nearly always uses a single arm to reach for something, rather than using both.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Palmar Grasp. grasps objects with the center of the palm, still without using the thumb.",
+          "selected": false
+        },
+        {
+          "label": "  Extends arm out to reach for an object that has fallen.",
+          "selected": false
+        },
+        {
+          "label": "Able to quickly reach out and grab an object of interest.",
+          "selected": false
+        },
+        {
+          "label": " May have strong enough grip to lift self from lying down to seated while holding onto a stick being lifted by a caregiver.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Imitation. purposely tries to mimic simple sounds and movements.",
+          "selected": false
+        },
+        {
+          "label":
+          "Able to remain alert for nearly two continuous hours.",
+          "selected": false
+        },
+        {
+          "label":
+          " Recognizes frequently used objects or toys.",
+          "selected": false
+        },
+        {
+          "label":
+          " Understands the difference between a human face and non-human objects and animals.",
+          "selected": false
+        },
+        {
+          "label":
+          "Leans body to look for an object that has dropped.",
+          "selected": false
+        },
+        {
+          "label":
+          "Recognizes immediate family, may get upset with strangers.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Improved vocal play  transitioning to  babbling.",
+          "selected": false
+        },
+        {
+          "label":
+          "Repeats simple sounds like ba, da, ca just to hear them.",
+          "selected": false
+        },
+        {
+          "label":
+          "Displays a broader variety of changes in volume and tone when talking.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values": [
+        {
+          "label":
+          "Hand-eye coordination improves  arms and hands follow eyes when reaching for objects.",
+          "selected": false
+        },
+        {
+          "label": "Able to visually track fast-moving objects",
+          "selected": false
+        }
+
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Able to hold the bottle with one or two hands.",
+          "selected": false
+        },
+        {
+          "label": " Sleeps through the night, which at this age means 8-12 hours.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Abrupt changes of mood, primarily alternating between happiness, fussiness and sadness.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "6 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Sitting. can remain in a seated position for limited periods of time, using own arms as support.",
+          "selected": false
+        },
+        {
+          "label": "Rolling and Moving. Able to roll over, turn and pivot in all directions.",
+          "selected": false
+        },
+        {
+          "label": "Starts moving using army crawl (not all babies do it).",
+          "selected": false
+        },
+        {
+          "label": "Able to turn and then reach out in order to grab an object of interest.",
+          "selected": false
+        },
+        {
+          "label": "Strong control of head movements.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Radial Palmar Grasp: Objects are secured using the radial side of the palm, the thumb, the index and middle fingers  all other fingers remain flexed.",
+          "selected": false
+        },
+        {
+          "label": "Clapping: Might start clapping hands (between months 6 and 9).",
+          "selected": false
+        },
+        {
+          "label": "Able to manipulate, hit and take objects to his mouth.",
+          "selected": false
+        },
+        {
+          "label": " High level of interest in toys that produce sounds like bells, music boxes and rattles.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Begins to Recognize Own Name: Reacts when called by name.",
+          "selected": false
+        },
+        {
+          "label":
+          " Might be able to use a toy as a tool to grab another one.",
+          "selected": false
+        },
+        {
+          "label":
+          "Examines objects for a long period of time.",
+          "selected": false
+        },
+        {
+          "label":
+          "Explores body with mouth and hands.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Reduplicated Babbling: Repetition of the same consonant-vowel syllable (e.g., 'baba, 'mama')  doesn't understand meaning.",
+          "selected": false
+        },
+        {
+          "label":
+          "Able to control opening and closing of the vocal tract, necessary for production of consonant and vowel sounds.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values": [
+        {
+          "label":
+          "Able to differentiate distance, understanding when objects are near or far.",
+          "selected": false
+        }
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "If baby is eating solids, enjoys playing with food and displays interest  in feeding self using fingers.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Knows “No”: Starting to understand the meaning of 'no' by recognizing the tone of the voice.",
+          "selected": false
+        },
+        {
+          "label": "Gets excited when realizes that it is playtime.",
+          "selected": false
+        },
+        {
+          "label": "Begins to interact with his/her own image in a mirror, although he/she will not recognize it as herself/himself yet  he/she will try to softly knock or touch his/her reflection.",
+          "selected": false
+        },
+        {
+          "label": "Displays happiness in enjoyable situations and disapproval in those that are not.",
+          "selected": false
+        },
+        {
+          "label": "Becomes difficult for parents to get the baby to do things the child does not want to do, even with significant encouragement.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "7 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Strong Sitting. displays good balance while seated without using arms as support  bends forward and backward to reach for a nearby object.",
+          "selected": false
+        },
+        {
+          "label": "While sitting, able to rock and bounce on bottom.",
+          "selected": false
+        },
+        {
+          "label": "Attempts to get up on hands and knees to get into a crawling position.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Grasping Objects. can hold two objects simultaneously, one in each hand  can bang them together.",
+          "selected": false
+        },
+        {
+          "label": "Raking Grasp. uses index and middle fingers to rake nearby objects closer.",
+          "selected": false
+        },
+        {
+          "label": "Experiments with hands, moving them in different ways, grasping and dropping objects.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Higher ability to focus  demonstrates curiosity about people.",
+          "selected": false
+        },
+        {
+          "label":
+          " Recognizes name and reacts when called.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Expands variety of consonant-vowel syllables, but often repeats the same syllable multiple times before moving to another.",
+          "selected": false
+        },
+        {
+          "label":
+          "Experiments with taking turns to talk, as if having an actual two-person conversation.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values": [
+        {
+          "label":
+          "Hearing fuels curiosity  pays close attention to subtle sounds like the ticking of a clock.",
+          "selected": false
+        }
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Begins to develop strong preferences for different food tastes.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Maintains interest in playing for longer periods of time  increased level of engagement.",
+          "selected": false
+        },
+        {
+          "label": " Waves goodbye (between months 7 and 10).",
+          "selected": false
+        },
+        {
+          "label": "Separation anxiety is often expressed through fear of strangers or any separation from mother.",
+          "selected": false
+        },
+        {
+          "label": "Might feel compassion when someone cries  occasionally might join in crying or may imitate someone's mood.",
+          "selected": false
+        },
+        {
+          "label": "Pushes away or rejects something unwanted.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "8 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Sits Alone: Can remain in a steady seated position for several minutes without using arms as support.",
+          "selected": false
+        },
+        {
+          "label": "Sits Up: Able to get into a sitting position from lying down, face up or face down.",
+          "selected": false
+        },
+        {
+          "label": "Once in a standing position (likely with help), needs assistance to go back to a sitting position.",
+          "selected": false
+        },
+        {
+          "label": "Can maintain a standing position by using furniture as support  still can't stand up without help.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Radial Digital Grasp: Grasps objects using index finger, middle finger and thumb.",
+          "selected": false
+        },
+        {
+          "label": "Able to grab and manipulate two objects simultaneously, one in each hand.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Has a mental model of the human face and becomes interested in the way it looks and its different forms of expression (e.g., happy face, sad face, etc.).",
+          "selected": false
+        },
+        {
+          "label": "Can solve simple problems and combine small sequences of actions or behaviors to create a new result or reach the same result in a different way (e.g., kicking a hanging toy to be able to grab it)  this skill forms the basis for learning.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Attempts to imitate noises or sounds produced by objects (e.g., 'boom!').",
+          "selected": false
+        },
+        {
+          "label":
+          "Might start combining more than one consonant-vowel syllables when babbling.",
+          "selected": false
+        },
+        {
+          "label":
+          "Listens carefully to conversations and songs, understanding the difference in tones.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Easily distracted  more interested in discovering and exploring surroundings than in things like eating.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Performs actions to get applause.",
+          "selected": false
+        },
+        {
+          "label":
+          "Becomes proactive about starting playtime.",
+          "selected": false
+        },
+        {
+          "label":
+          "Becomes protective of self and possessions  might fight over a toy.",
+          "selected": false
+        },
+        {
+          "label":
+          "Better understands people's moods (e.g., gets happy when everybody is happy, gets anxious when there is stress).",
+          "selected": false
+        },
+        {
+          "label":
+          "Deliberately chooses toys with which to play.",
+          "selected": false
+        },
+        {
+          "label":
+          "Prefers to play close to mother.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "9 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Pull to Stand. starts using furniture to try to stand, still needs help.",
+          "selected": false
+        },
+        {
+          "label": "Crawling. able to crawl (between months 8-10)  can do it forward or backward at the beginning.",
+          "selected": false
+        },
+        {
+          "label": "Goes from crawling to a sitting position without significant effort.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Inferior Pincer Grasp. grasps objects between index finger and thumb but uses the entire surface of each finger, rather than only the fingertips, to hold the object.",
+          "selected": false
+        },
+        {
+          "label": " Able to grab thin objects (e.g., a shoelace). Able to carry two small objects in one hand.",
+          "selected": false
+        },
+        {
+          "label": " Voluntarily drops objects, although lacks control to place objects on a surface gently.",
+          "selected": false
+        },
+        {
+          "label": " Can open drawers and will explore contents.",
+
+          "selected": false
+        },
+        {
+          "label": " Uses hands in different ways  for example, uses one as support and the other to manipulate an object.",
+          "selected": false
+        },
+        {
+          "label": "Stacks similar objects, fitting one thing into another (e.g., plastic cups).",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Object Permanence. is able to recover an object that has been hidden as he/she observes.",
+          "selected": false
+        },
+        {
+          "label":
+          "Anticipates a reward for the successful completion of a task or order.",
+          "selected": false
+        },
+        {
+          "label":
+          "Able to hold several ideas in mind at the same time (e.g., can communicate with mom while playing).",
+          "selected": false
+        },
+        {
+          "label":
+          " Gets bored more easily (e.g., from a toy, from playing the same game or from the same stimulus).",
+          "selected": false
+        },
+        {
+          "label":
+          "Becomes aware of heights, which might create fear.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Variegated Babbling. more sophisticated form of babbling that combines different consonant-vowel syllables instead of repeating the same one.",
+          "selected": false
+        },
+        {
+          "label":
+          "Says 'No' while shaking head side to side..",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Sensory": {
+      "values": [
+        {
+          "label":
+          "Understands individuality within a group (can pick one toy within a group, understands that they are separate toys vs. a single entity).",
+          "selected": false
+        }
+      ],
+      "color1": "#00A1EF",
+      "color2": "#89D9FF",
+      "iconName": "sensory"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "While getting dressed, increasingly helps by moving and preparing his/her arms and legs as needed.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Increased awareness of self  increasingly aware of social approval or disapproval.",
+          "selected": false
+        },
+        {
+          "label": "Imitates gestures, facial expressions and sounds.",
+          "selected": false
+        },
+        {
+          "label": "Displays a broader set of moods (frustrated, sad, happy, angry, excited, etc.).",
+          "selected": false
+        },
+        {
+          "label": "Picks one or a few toys as favorites.",
+          "selected": false
+        },
+        {
+          "label": "Demonstrates fear in new places.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "10 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Attempts to Cruise.while standing supported by furniture, tries to place one foot in front of the other to move.",
+          "selected": false
+        },
+        {
+          "label": "Sits from Standing.able to move from standing up to sitting on the floor.",
+          "selected": false
+        },
+        {
+          "label": "Will try to stand up in different ways, using different types of support.",
+          "selected": false
+        },
+        {
+          "label": "Perfect crawling, with improved speed and form.",
+          "selected": false
+        },
+        {
+          "label": "Climbs onto and off of chairs and other furniture.",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Pincer Grasp. grasps small objects using the tips of the index finger and thumb.",
+          "selected": false
+        },
+        {
+          "label": "Places objects into and removes them from a cup, box or other type of container.",
+          "selected": false
+        },
+        {
+          "label": "Able to remove a loose top from a container.",
+          "selected": false
+        },
+        {
+          "label": " Tries to turn the pages in a cardboard children's book, often turning more than one page at a time.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Reach Behind. seeks and reaches for an object that is behind self without needing to see it.",
+          "selected": false
+        },
+        {
+          "label":
+          " Continues to learn about objects and their properties (e.g., crinkles paper, makes noise with boxes, listens to the tick tock of the clock).",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Understands Object Names. associates meaning between words and the things to which they refer.",
+          "selected": false
+        },
+        {
+          "label":
+          "Understands some simple instructions (e.g., pick up a ball or crawl to mom).",
+          "selected": false
+        },
+        {
+          "label":
+          " Can imitate inflections, the rhythm of a conversation and facial expressions more accurately than the words in the conversation.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Increasingly interested in playing and exploring the world  mealtime becomes increasingly challenging (often not interested in eating).",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Imitates movements and games of other children and adults.",
+          "selected": false
+        },
+        {
+          "label":
+          "Searches for images of nearby objects in the mirror.",
+          "selected": false
+        },
+        {
+          "label":
+          "Enjoys Peek-a-boo style games.",
+          "selected": false
+        },
+        {
+          "label":
+          "Increased Dependence on Mother. separation anxiety can be high in next 4-8 months.",
+          "selected": false
+        },
+        {
+          "label":
+          "Might deliberately decide not to cooperate sometimes.",
+          "selected": false
+        }
+      ],
+      "color1": "#CB0016",
+      "color2": "#FFA5AF",
+      "iconName": "socialEmotional"
+    }
+  },
+
+  "11 Months": {
+    "Gross Motor": {
+      "values" : [
+        {
+          "label": "Cruising. able to walk around by holding on to furniture.",
+          "selected": false
+        },
+        {
+          "label": "Solo Standing. might be able to let go  of support and remain standing (between months 11 and 13).",
+          "selected": false
+        },
+        {
+          "label": "Crawling Up and Down Stairs. might be able to climb up and down steps on all fours  will go backwards to go down.",
+          "selected": false
+        },
+        {
+          "label": "Able to walk steadily while holding an adult 's  hand (between months 11 and 13).",
+          "selected": false
+        }
+      ],
+      "color1": "#4300DB",
+      "color2": "#C3A8FF",
+      "iconName": "grossMotor"
+
+    },
+    "Fine Motor": {
+      "values":[
+        {
+          "label":
+          "Able to assemble things better  more interested in building instead of just destroying things (e.g., block towers).",
+          "selected": false
+        },
+        {
+          "label": " Might use armpit or mouth to carry a third object when hands are each carrying something.",
+          "selected": false
+        }
+      ],
+      "color1": "#E22B87",
+      "color2": "#FF91EA",
+      "iconName": "fineMotor"
+    },
+    "Cognitive": {
+      "values":[
+        {
+          "label": "Body Parts. points to a few body parts when asked.",
+          "selected": false
+        },
+        {
+          "label":
+          "Uses objects as means to achieve goals  for example, uses a small chair as a walker to be able to walk around.",
+          "selected": false
+        }
+      ],
+      "color1": "#00CE96",
+      "color2": "#BEFFED",
+      "iconName": "cognitive"
+    },
+    "Speech": {
+      "values": [
+        {
+          "label":
+          "Conversational Babbling.babbling starts,to resemble talking as the baby plays with intonation and different talking patterns .",
+          "selected": false
+        },
+        {
+          "label":
+          "Able to pronounce some small words through imitation.",
+          "selected": false
+        }
+      ],
+      "color1": "#FF5B13",
+      "color2": "#FFD7C6",
+      "iconName": "speech"
+    },
+    "Self Care":{
+      "values": [
+        {
+          "label": "Can take off socks  increasingly collaborates when getting dressed/undressed.",
+          "selected": false
+        },
+        {
+          "label": "Feeding might become more challenging, as the baby's curiosity and need for independence increases (i.e., may want to feed self).",
+          "selected": false
+        }
+      ],
+      "color1": "#FF9D00",
+      "color2": "#FFE2B2",
+      "iconName": "selfCare"
+    },
+    "Social - Emotional": {
+      "values": [
+        {
+          "label": "Displays many emotions and recognizes them when displayed by other people.",
+          "selected": false
+        },
+        {
+          "label": "Enjoys playing with water in the sink or during bath time.",
+          "selected": false
+        },
+        {
+          "label": "Very interested in any activity performed by an adult.",
+          "selected": false
