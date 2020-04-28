@@ -33,6 +33,7 @@ module.exports = function routes(app) {
     require('./common/middleware').checkToken,
     require('./users/login').index,
   );
+  app.get('/getRhymesData', require('./users/rhymes').getRhymesData);
 
   //POST routes
   app.post('/registerUser', require('./users/register').createUser);
