@@ -1,5 +1,6 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3000'
+const url = 'http://34.207.213.121:3000';
+const mileStoneUrl = 'http://34.207.213.121:3002';
 const checkToken = require('../common/middleware').checkToken;
 const emptyVaccinesData = require('../data/vaccinesempty.json');
 const milestone = require('../data/milestone.json');
@@ -67,10 +68,13 @@ exports.createChild = async function(req, res) {
         "key": key,
         "data": newUserObject
       }
+
+     const mileStoneResponse = await axios.get(`${mileStoneUrl}/queryMileStoneData?stream=bb_data_stream&key=${username}`);
+     const mileStoneData = userObject.children  ? [...JSON.parse(mileStoneResponse.data.items), milestone] : [milestone];
       const milestoneStream = {
         "stream": "bb_data_stream",
         "key": key,
-        "data": milestone
+        "data": mileStoneData
       }
       const response = await axios.post(`${url}/registerUser`, stream);
       await axios.post(`${url}/registerMilestone`, milestoneStream);
