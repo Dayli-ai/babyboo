@@ -1,6 +1,8 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3000';
-const mileStoneUrl = 'http://34.207.213.121:3002';
+//const url = 'http://34.207.213.121:3000'; existing prod url
+const url = 'http://3.91.182.21:3000';
+//const mileStoneUrl = 'http://34.207.213.121:3002';
+const mileStoneUrl = 'http://3.91.182.21:3002';
 const checkToken = require('../common/middleware').checkToken;
 const emptyVaccinesData = require('../data/vaccinesempty.json');
 const milestone = require('../data/milestone.json');
