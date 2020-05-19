@@ -19,8 +19,8 @@ const createTable = rows => {
     <th>Vaccine</th>
     <th>Due Date</th>
     <th>Given Date</th>
+     <th>Height</th>
     <th>Weight</th>
-    <th>Height</th>
     <th>Brand Name</th>
     <th>Mfg Date</th>
     <th>Exp Date</th>
@@ -568,7 +568,7 @@ const doesFileExist = filePath => {
   }
 };
 
- const createPDF = (data, child, username) => {
+ const createPDF = (data, child, username, childIndex) => {
    if(!data) return;
   try {
     /* Check if the file for `html` build exists in system or not */
@@ -589,7 +589,7 @@ const doesFileExist = filePath => {
 
     const options = { format: 'A4' ,  height: "14.9in",
       width: "15in"};
-    const dir = `uploads/${username}/index.pdf`;
+    const dir = `uploads/${username}/${childIndex}/index.pdf`;
     pdf.create(html, options).toFile(dir, function(err, res) {
       if (err) return console.log(err);
       console.log(res); // { filename: '/app/businesscard.pdf' }

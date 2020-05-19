@@ -7,8 +7,8 @@ function setTimerForNotifications() {
     pushnotifications.checkAndPushNotifications();
   }, 43200 * 1000);
 }
-pushnotifications.checkAndPushNotifications(); //Initial call
-setTimerForNotifications();
+//pushnotifications.checkAndPushNotifications(); //Initial call
+//setTimerForNotifications();
 const multer = require('multer');
 //Define all the routes in the server running on multichain cluster
 const Storage = multer.diskStorage({
