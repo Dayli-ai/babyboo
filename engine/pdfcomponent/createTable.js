@@ -589,7 +589,7 @@ const doesFileExist = filePath => {
 
     const options = { format: 'A4' ,  height: "14.9in",
       width: "15in"};
-    const dir = `uploads/${username}/${childIndex}/index.pdf`;
+    const dir = `uploads/${username}/child${childIndex}/index.pdf`;
     pdf.create(html, options).toFile(dir, function(err, res) {
       if (err) return console.log(err);
       console.log(res); // { filename: '/app/businesscard.pdf' }
