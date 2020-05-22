@@ -14,7 +14,7 @@ exports.login = async function(req, res) {
     console.log(response);
     res.json(response.data);
   }catch(e) {
-    res.status(403).json('Error from server');
+    res.status(403).json(e.response.data.message);
   }
 
 };
