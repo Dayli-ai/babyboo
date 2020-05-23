@@ -31,7 +31,7 @@ const createTable = rows => {
     <td rowspan="3">At Birth</td>
     <td>BCG</td>
     <td>${rows['At Birth'].dueDate}</td>
-    <td>${rows['At Birth'].givenDate}</td>
+    <td>${rows['At Birth'].vaccines[0].givenDate}</td>
     <td>${rows['At Birth'].height}</td>
     <td>${rows['At Birth'].weight}</td>
     <td>${rows['At Birth'].vaccines[0].brand}</td>
@@ -43,7 +43,7 @@ const createTable = rows => {
   <tr>
     <td>OPV 0</td>
     <td>${rows['At Birth'].dueDate}</td>
-    <td>${rows['At Birth'].givenDate}</td>
+    <td>${rows['At Birth'].vaccines[1].givenDate}</td>
     <td>${rows['At Birth'].height}</td>
     <td>${rows['At Birth'].weight}</td>
     <td>${rows['At Birth'].vaccines[1].brand}</td>
@@ -55,7 +55,7 @@ const createTable = rows => {
   <tr>
     <td>HEP-B1</td>
     <td>${rows['At Birth'].dueDate}</td>
-    <td>${rows['At Birth'].givenDate}</td>
+    <td>${rows['At Birth'].vaccines[2].givenDate}</td>
     <td>${rows['At Birth'].height}</td>
     <td>${rows['At Birth'].weight}</td>
     <td>${rows['At Birth'].vaccines[2].brand}</td>
@@ -69,7 +69,7 @@ const createTable = rows => {
     <td rowspan="6">6 Weeks</td>
     <td>DTwP 1</td>
     <td>${rows['6 Weeks'].dueDate}</td>
-    <td>${rows['6 Weeks'].givenDate}</td>
+    <td>${rows['6 Weeks'].vaccines[0].givenDate}</td>
     <td>${rows['6 Weeks'].height}</td>
     <td>${rows['6 Weeks'].weight}</td>
     <td>${rows['6 Weeks'].vaccines[0].brand}</td>
@@ -81,7 +81,7 @@ const createTable = rows => {
   <tr>
     <td>IPV 1</td>
     <td>${rows['6 Weeks'].dueDate}</td>
-    <td>${rows['6 Weeks'].givenDate}</td>
+    <td>${rows['6 Weeks'].vaccines[1].givenDate}</td>
     <td>${rows['6 Weeks'].height}</td>
     <td>${rows['6 Weeks'].weight}</td>
     <td>${rows['6 Weeks'].vaccines[1].brand}</td>
@@ -93,7 +93,7 @@ const createTable = rows => {
   <tr>
     <td>HEP-B2</td>
     <td>${rows['6 Weeks'].dueDate}</td>
-    <td>${rows['6 Weeks'].givenDate}</td>
+    <td>${rows['6 Weeks'].vaccines[2].givenDate}</td>
     <td>${rows['6 Weeks'].height}</td>
     <td>${rows['6 Weeks'].weight}</td>
     <td>${rows['6 Weeks'].vaccines[2].brand}</td>
@@ -105,7 +105,7 @@ const createTable = rows => {
   <tr>
     <td>Hib 1</td>
     <td>${rows['6 Weeks'].dueDate}</td>
-    <td>${rows['6 Weeks'].givenDate}</td>
+    <td>${rows['6 Weeks'].vaccines[3].givenDate}</td>
     <td>${rows['6 Weeks'].height}</td>
     <td>${rows['6 Weeks'].weight}</td>
     <td>${rows['6 Weeks'].vaccines[3].brand}</td>
@@ -117,7 +117,7 @@ const createTable = rows => {
   <tr>
     <td>RV Vaccine 1</td>
     <td>${rows['6 Weeks'].dueDate}</td>
-    <td>${rows['6 Weeks'].givenDate}</td>
+    <td>${rows['6 Weeks'].vaccines[4].givenDate}</td>
     <td>${rows['6 Weeks'].height}</td>
     <td>${rows['6 Weeks'].weight}</td>
     <td>${rows['6 Weeks'].vaccines[4].brand}</td>
@@ -128,7 +128,7 @@ const createTable = rows => {
   <tr>
     <td>PVC 1</td>
     <td>${rows['6 Weeks'].dueDate}</td>
-    <td>${rows['6 Weeks'].givenDate}</td>
+    <td>${rows['6 Weeks'].vaccines[5].givenDate}</td>
     <td>${rows['6 Weeks'].height}</td>
     <td>${rows['6 Weeks'].weight}</td>
     <td>${rows['6 Weeks'].vaccines[5].brand}</td>
@@ -142,7 +142,7 @@ const createTable = rows => {
     <td rowspan="5">10 Weeks</td>
     <td>DTwP 2</td>
     <td>${rows['10 Weeks'].dueDate}</td>
-    <td>${rows['10 Weeks'].givenDate}</td>
+    <td>${rows['10 Weeks'].vaccines[0].givenDate}</td>
     <td>${rows['10 Weeks'].height}</td>
     <td>${rows['10 Weeks'].weight}</td>
     <td>${rows['10 Weeks'].vaccines[0].brand}</td>
@@ -154,7 +154,7 @@ const createTable = rows => {
   <tr>
     <td>IPV 2</td>
     <td>${rows['10 Weeks'].dueDate}</td>
-    <td>${rows['10 Weeks'].givenDate}</td>
+    <td>${rows['10 Weeks'].vaccines[1].givenDate}</td>
     <td>${rows['10 Weeks'].height}</td>
     <td>${rows['10 Weeks'].weight}</td>
     <td>${rows['10 Weeks'].vaccines[1].brand}</td>
@@ -166,7 +166,7 @@ const createTable = rows => {
   <tr>
     <td>Hib 2</td>
     <td>${rows['10 Weeks'].dueDate}</td>
-    <td>${rows['10 Weeks'].givenDate}</td>
+    <td>${rows['10 Weeks'].vaccines[2].givenDate}</td>
     <td>${rows['10 Weeks'].height}</td>
     <td>${rows['10 Weeks'].weight}</td>
     <td>${rows['10 Weeks'].vaccines[2].brand}</td>
@@ -178,7 +178,7 @@ const createTable = rows => {
   <tr>
     <td>RV Vaccine 2</td>
     <td>${rows['10 Weeks'].dueDate}</td>
-    <td>${rows['10 Weeks'].givenDate}</td>
+    <td>${rows['10 Weeks'].vaccines[3].givenDate}</td>
     <td>${rows['10 Weeks'].height}</td>
     <td>${rows['10 Weeks'].weight}</td>
     <td>${rows['10 Weeks'].vaccines[3].brand}</td>
@@ -190,7 +190,7 @@ const createTable = rows => {
   <tr>
     <td>PVC 2</td>
     <td>${rows['10 Weeks'].dueDate}</td>
-    <td>${rows['10 Weeks'].givenDate}</td>
+    <td>${rows['10 Weeks'].vaccines[4].givenDate}</td>
     <td>${rows['10 Weeks'].height}</td>
     <td>${rows['10 Weeks'].weight}</td>
     <td>${rows['10 Weeks'].vaccines[4].brand}</td>
@@ -204,7 +204,7 @@ const createTable = rows => {
     <td rowspan="5">14 Weeks</td>
     <td>DTwP 3</td>
     <td>${rows['14 Weeks'].dueDate}</td>
-    <td>${rows['14 Weeks'].givenDate}</td>
+    <td>${rows['14 Weeks'].vaccines[0].givenDate}</td>
     <td>${rows['14 Weeks'].height}</td>
     <td>${rows['14 Weeks'].weight}</td>
     <td>${rows['14 Weeks'].vaccines[0].brand}</td>
@@ -216,7 +216,7 @@ const createTable = rows => {
   <tr>
     <td>IPV 3</td>
     <td>${rows['14 Weeks'].dueDate}</td>
-    <td>${rows['14 Weeks'].givenDate}</td>
+    <td>${rows['14 Weeks'].vaccines[1].givenDate}</td>
     <td>${rows['14 Weeks'].height}</td>
     <td>${rows['14 Weeks'].weight}</td>
     <td>${rows['14 Weeks'].vaccines[1].brand}</td>
@@ -228,7 +228,7 @@ const createTable = rows => {
   <tr>
     <td>Hib 3</td>
     <td>${rows['14 Weeks'].dueDate}</td>
-    <td>${rows['14 Weeks'].givenDate}</td>
+    <td>${rows['14 Weeks'].vaccines[2].givenDate}</td>
     <td>${rows['14 Weeks'].height}</td>
     <td>${rows['14 Weeks'].weight}</td>
     <td>${rows['14 Weeks'].vaccines[2].brand}</td>
@@ -240,7 +240,7 @@ const createTable = rows => {
   <tr>
     <td>RV Vaccine 3</td>
     <td>${rows['14 Weeks'].dueDate}</td>
-    <td>${rows['14 Weeks'].givenDate}</td>
+    <td>${rows['14 Weeks'].vaccines[3].givenDate}</td>
     <td>${rows['14 Weeks'].height}</td>
     <td>${rows['14 Weeks'].weight}</td>
     <td>${rows['14 Weeks'].vaccines[3].brand}</td>
@@ -252,7 +252,7 @@ const createTable = rows => {
   <tr>
     <td>PVC 3</td>
     <td>${rows['14 Weeks'].dueDate}</td>
-    <td>${rows['14 Weeks'].givenDate}</td>
+    <td>${rows['14 Weeks'].vaccines[4].givenDate}</td>
     <td>${rows['14 Weeks'].height}</td>
     <td>${rows['14 Weeks'].weight}</td>
     <td>${rows['14 Weeks'].vaccines[4].brand}</td>
@@ -266,7 +266,7 @@ const createTable = rows => {
     <td rowspan="2">6 Months</td>
     <td>HEP-B3</td>
     <td>${rows['6 Months'].dueDate}</td>
-    <td>${rows['6 Months'].givenDate}</td>
+    <td>${rows['6 Months'].vaccines[0].givenDate}</td>
     <td>${rows['6 Months'].height}</td>
     <td>${rows['6 Months'].weight}</td>
     <td>${rows['6 Months'].vaccines[0].brand}</td>
@@ -278,7 +278,7 @@ const createTable = rows => {
   <tr>
     <td>OPV 1</td>
     <td>${rows['6 Months'].dueDate}</td>
-    <td>${rows['6 Months'].givenDate}</td>
+    <td>${rows['6 Months'].vaccines[1].givenDate}</td>
     <td>${rows['6 Months'].height}</td>
     <td>${rows['6 Months'].weight}</td>
     <td>${rows['6 Months'].vaccines[1].brand}</td>
@@ -292,7 +292,7 @@ const createTable = rows => {
     <td rowspan="2">9 Months</td>
     <td>MMR-1</td>
     <td>${rows['9 Months'].dueDate}</td>
-    <td>${rows['9 Months'].givenDate}</td>
+    <td>${rows['9 Months'].vaccines[0].givenDate}</td>
     <td>${rows['9 Months'].height}</td>
     <td>${rows['9 Months'].weight}</td>
     <td>${rows['9 Months'].vaccines[0].brand}</td>
@@ -304,7 +304,7 @@ const createTable = rows => {
   <tr>
     <td>OPV 2</td>
     <td>${rows['9 Months'].dueDate}</td>
-    <td>${rows['9 Months'].givenDate}</td>
+    <td>${rows['9 Months'].vaccines[1].givenDate}</td>
     <td>${rows['9 Months'].height}</td>
     <td>${rows['9 Months'].weight}</td>
     <td>${rows['9 Months'].vaccines[1].brand}</td>
@@ -318,7 +318,7 @@ const createTable = rows => {
     <td>9-12 Months</td>
     <td>Typhoid</td>
     <td>${rows['9-12 Months'].dueDate}</td>
-    <td>${rows['9-12 Months'].givenDate}</td>
+    <td>${rows['9-12 Months'].vaccines[0].givenDate}</td>
     <td>${rows['9-12 Months'].height}</td>
     <td>${rows['9-12 Months'].weight}</td>
     <td>${rows['9-12 Months'].vaccines[0].brand}</td>
@@ -332,7 +332,7 @@ const createTable = rows => {
     <td>12 Months</td>
     <td>HEP-A1</td>
     <td>${rows['12 Months'].dueDate}</td>
-    <td>${rows['12 Months'].givenDate}</td>
+    <td>${rows['12 Months'].vaccines[0].givenDate}</td>
     <td>${rows['12 Months'].height}</td>
     <td>${rows['12 Months'].weight}</td>
     <td>${rows['12 Months'].vaccines[0].brand}</td>
@@ -346,7 +346,7 @@ const createTable = rows => {
     <td rowspan="3">15 Months</td>
     <td>MMR-2</td>
     <td>${rows['15 Months'].dueDate}</td>
-    <td>${rows['15 Months'].givenDate}</td>
+    <td>${rows['15 Months'].vaccines[0].givenDate}</td>
     <td>${rows['15 Months'].height}</td>
     <td>${rows['15 Months'].weight}</td>
     <td>${rows['15 Months'].vaccines[0].brand}</td>
@@ -358,7 +358,7 @@ const createTable = rows => {
   <tr>
     <td>Varicella 1</td>
     <td>${rows['15 Months'].dueDate}</td>
-    <td>${rows['15 Months'].givenDate}</td>
+    <td>${rows['15 Months'].vaccines[1].givenDate}</td>
     <td>${rows['15 Months'].height}</td>
     <td>${rows['15 Months'].weight}</td>
     <td>${rows['15 Months'].vaccines[1].brand}</td>
@@ -370,7 +370,7 @@ const createTable = rows => {
   <tr>
     <td>PCV Booster</td>
    <td>${rows['15 Months'].dueDate}</td>
-    <td>${rows['15 Months'].givenDate}</td>
+    <td>${rows['15 Months'].vaccines[2].givenDate}</td>
     <td>${rows['15 Months'].height}</td>
     <td>${rows['15 Months'].weight}</td>
     <td>${rows['15 Months'].vaccines[2].brand}</td>
@@ -384,7 +384,7 @@ const createTable = rows => {
     <td rowspan="3">16-18 Months</td>
     <td>DTwp B1/DTaP B1</td>
     <td>${rows['16-18 Months'].dueDate}</td>
-    <td>${rows['16-18 Months'].givenDate}</td>
+    <td>${rows['16-18 Months'].vaccines[0].givenDate}</td>
     <td>${rows['16-18 Months'].height}</td>
     <td>${rows['16-18 Months'].weight}</td>
     <td>${rows['16-18 Months'].vaccines[0].brand}</td>
@@ -396,7 +396,7 @@ const createTable = rows => {
   <tr>
     <td>IPV B1</td>
     <td>${rows['16-18 Months'].dueDate}</td>
-    <td>${rows['16-18 Months'].givenDate}</td>
+    <td>${rows['16-18 Months'].vaccines[1].givenDate}</td>
     <td>${rows['16-18 Months'].height}</td>
     <td>${rows['16-18 Months'].weight}</td>
     <td>${rows['16-18 Months'].vaccines[1].brand}</td>
@@ -408,7 +408,7 @@ const createTable = rows => {
   <tr>
     <td>Hib B1</td>
     <td>${rows['16-18 Months'].dueDate}</td>
-    <td>${rows['16-18 Months'].givenDate}</td>
+    <td>${rows['16-18 Months'].vaccines[2].givenDate}</td>
     <td>${rows['16-18 Months'].height}</td>
     <td>${rows['16-18 Months'].weight}</td>
     <td>${rows['16-18 Months'].vaccines[2].brand}</td>
@@ -422,7 +422,7 @@ const createTable = rows => {
     <td>18 Months</td>
     <td>HEP-A2</td>
     <td>${rows['18 Months'].dueDate}</td>
-    <td>${rows['18 Months'].givenDate}</td>
+    <td>${rows['18 Months'].vaccines[0].givenDate}</td>
     <td>${rows['18 Months'].height}</td>
     <td>${rows['18 Months'].weight}</td>
     <td>${rows['18 Months'].vaccines[0].brand}</td>
@@ -436,7 +436,7 @@ const createTable = rows => {
     <td rowspan="2">2 Years</td>
     <td>Typhoid Booster</td>
     <td>${rows['2 Years'].dueDate}</td>
-    <td>${rows['2 Years'].givenDate}</td>
+    <td>${rows['2 Years'].vaccines[0].givenDate}</td>
     <td>${rows['2 Years'].height}</td>
     <td>${rows['2 Years'].weight}</td>
     <td>${rows['2 Years'].vaccines[0].brand}</td>
@@ -448,7 +448,7 @@ const createTable = rows => {
   <tr>
     <td>Conjugate Vaccine</td>
     <td>${rows['2 Years'].dueDate}</td>
-    <td>${rows['2 Years'].givenDate}</td>
+    <td>${rows['2 Years'].vaccines[1].givenDate}</td>
     <td>${rows['2 Years'].height}</td>
     <td>${rows['2 Years'].weight}</td>
     <td>${rows['2 Years'].vaccines[1].brand}</td>
@@ -461,7 +461,7 @@ const createTable = rows => {
   <td rowspan="3">4-6 Years</td>
     <td>DTwp B2/DTaP B2</td>
    <td>${rows['4-6 Years'].dueDate}</td>
-    <td>${rows['4-6 Years'].givenDate}</td>
+    <td>${rows['4-6 Years'].vaccines[0].givenDate}</td>
     <td>${rows['4-6 Years'].height}</td>
     <td>${rows['4-6 Years'].weight}</td>
     <td>${rows['4-6 Years'].vaccines[0].brand}</td>
@@ -473,7 +473,7 @@ const createTable = rows => {
   <tr>
     <td>OPV3/Varicella 2</td>
     <td>${rows['4-6 Years'].dueDate}</td>
-    <td>${rows['4-6 Years'].givenDate}</td>
+    <td>${rows['4-6 Years'].vaccines[1].givenDate}</td>
     <td>${rows['4-6 Years'].height}</td>
     <td>${rows['4-6 Years'].weight}</td>
     <td>${rows['4-6 Years'].vaccines[1].brand}</td>
@@ -485,7 +485,7 @@ const createTable = rows => {
   <tr>
     <td>MMR 3</td>
     <td>${rows['4-6 Years'].dueDate}</td>
-    <td>${rows['4-6 Years'].givenDate}</td>
+    <td>${rows['4-6 Years'].vaccines[2].givenDate}</td>
     <td>${rows['4-6 Years'].height}</td>
     <td>${rows['4-6 Years'].weight}</td>
     <td>${rows['4-6 Years'].vaccines[2].brand}</td>
@@ -499,7 +499,7 @@ const createTable = rows => {
     <td rowspan="2">10-12 Years</td>
     <td>PDAP/TD</td>
     <td>${rows['10-12 Years'].dueDate}</td>
-    <td>${rows['10-12 Years'].givenDate}</td>
+    <td>${rows['10-12 Years'].vaccines[0].givenDate}</td>
     <td>${rows['10-12 Years'].height}</td>
     <td>${rows['10-12 Years'].weight}</td>
     <td>${rows['10-12 Years'].vaccines[0].brand}</td>
@@ -511,7 +511,7 @@ const createTable = rows => {
   <tr>
     <td>HPV</td>
     <td>${rows['10-12 Years'].dueDate}</td>
-    <td>${rows['10-12 Years'].givenDate}</td>
+    <td>${rows['10-12 Years'].vaccines[1].givenDate}</td>
     <td>${rows['10-12 Years'].height}</td>
     <td>${rows['10-12 Years'].weight}</td>
     <td>${rows['10-12 Years'].vaccines[1].brand}</td>
