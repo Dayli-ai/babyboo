@@ -1,8 +1,6 @@
 const init = require('../common/init.js');
 const jwt = require('jsonwebtoken');
 let config = require('../common/config.js');
-const log4js = init.getLog();
-const logger = log4js.getLogger('backend-logs');
 
 const multichain = init.getMultichain();
 
@@ -19,47 +17,20 @@ exports.login = async function (req, res) {
     userstream="bb_stream"
     let username = req.body.username;
     let password = req.body.password;
+    console.log("username.pws",username,password)
     var fetch_pass = new Promise(function (resolve, reject) {
-    multichain.listStreamKeyItems({stream: userstream, key: username, verbose: false, count: 1, start:-1,},(err, data) => {
-	   logger.info("Fetch data from",userstream,"for the key to login",username);
-           if (data.length > 0 && data[0].data.txid)
-                 {
-                       var txid = data[0].data.txid
-		       logger.info("Fetch data from",userstream,"for the txid to login",txid);
-                       multichain.getTxOutData({
-                           txid: txid,
-                           vout: 0,
-                       },(err,data) => {
-			   //const items = {"items": [
-			//	   {
-			//		   "key":username,
-			//		   "data":data,
-			//		   "txid":txid
-			//	   }
-			 //  ]}
-			   //    console.log("Big data output",items)
-			   resolve(data)
-                	})
-                 }
-         else {
-		 console.log("small data output",data)
-           resolve(data)
-      	 }
-    })
+    multichain.listStreamKeyItems({stream: userstream, key: username, verbose: false}, (err, tx) => {
+            console.log("tx",tx)
+	    resolve(tx)
+   })
 })
     await fetch_pass.then(function (value) {
-	    if (value[0].data)
-	    {
-		var password_act = hex_to_ascii(value[0].data);
-	    }
-          else
-	    {
-		    var password_act = hex_to_ascii(value);
-	    }
+     var password_act = hex_to_ascii(value[value.length-1].data);
      var par = JSON.parse(password_act); 
      var password_actual = par.password
-     if (username && password) {
-     if (username === username && password === password_actual) {
+    console.log("password_actual",password_actual)
+    if (username && password) {
+      if (username === username && password === password_actual) {
         let token = jwt.sign({username: username},
           config.secret,
           { expiresIn: '24h' // expires in 24 hours

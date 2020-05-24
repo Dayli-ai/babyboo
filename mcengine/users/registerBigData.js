@@ -11,7 +11,7 @@ exports.createBigUser = function (req, res) {
 
     const multichain = init.getMultichain();
     var stream_name = "bb_data_stream"
-    var actor_address="17obqLGzF5hu9wyQqCEDcCNkrfX86gtZUoaaHW"
+    var actor_address="1RpWVNGh6gvfhDVkg38wvKbtWGBAkfffFWUuY2"
 
 function hex_to_ascii(str) {
    var hex = str.toString();
