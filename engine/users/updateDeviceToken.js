@@ -1,7 +1,7 @@
 const axios = require('axios');
 const checkToken = require('../common/middleware').checkToken;
-//const url = 'http://34.207.213.121:3000';
-const url = 'http://3.91.182.21:3000';
+const url = 'http://34.207.213.121:3000';
+//const url = 'http://3.91.182.21:3000';
 
 exports.updateDeviceToken = async function(req, res) {
   const { authorization } = req.headers;

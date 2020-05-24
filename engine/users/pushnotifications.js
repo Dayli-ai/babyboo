@@ -1,8 +1,8 @@
 const axios = require('axios');
-//const url = 'http://34.207.213.121:3002/queryStreamKeys?stream=bb_stream';
-const url = 'http://3.91.182.21:3002/queryStreamKeys?stream=bb_stream';
-//const url1 = 'http://34.207.213.121:3000';
-const url1 = 'http://3.91.182.21:3000';
+const url = 'http://34.207.213.121:3002/queryStreamKeys?stream=bb_stream';
+//const url = 'http://3.91.182.21:3002/queryStreamKeys?stream=bb_stream';
+const url1 = 'http://34.207.213.121:3000';
+//const url1 = 'http://3.91.182.21:3000';
 
 async function asyncForEach(array, callback) {
   for (let index = 0; index < array.length; index++) {

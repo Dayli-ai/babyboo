@@ -1,9 +1,9 @@
 const axios = require('axios');
 const fs = require('fs');
-//const url = 'http://34.207.213.121:3000';
-const url = 'http://3.91.182.21:3000';
-//const url1 = 'http://34.207.213.121:3001';
-const url1 = 'http://3.91.182.21:3001';
+const url = 'http://34.207.213.121:3000';
+//const url = 'http://3.91.182.21:3000';
+const url1 = 'http://34.207.213.121:3001';
+//const url1 = 'http://3.91.182.21:3001';
 const checkToken = require('../common/middleware').checkToken;
 
 exports.getUserInfo = async (req, res) => {
