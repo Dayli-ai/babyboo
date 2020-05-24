@@ -1,5 +1,6 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3000';
+const url = 'http://3.91.182.21:3000';
+//const url = 'http://34.207.213.121:3000';
 const checkToken = require('../common/middleware').checkToken;
 
 exports.resetPassword = async function(req, res) {

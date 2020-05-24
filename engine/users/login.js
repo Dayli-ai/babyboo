@@ -1,6 +1,7 @@
 const axios = require('axios');
 
-const url = 'http://34.207.213.121:3000'
+//const url = 'http://34.207.213.121:3000'
+const url = 'http://3.91.182.21:3000'
 
 exports.login = async function(req, res) {
   let username = req.body.username;
@@ -13,7 +14,7 @@ exports.login = async function(req, res) {
     console.log(response);
     res.json(response.data);
   }catch(e) {
-    res.status(403).json(e.response.data);
+    res.status(403).json(e.response.data.message);
   }
 
 };

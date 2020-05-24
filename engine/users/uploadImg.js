@@ -2,7 +2,8 @@
 const axios = require('axios');
 const fs = require('fs');
 const checkToken = require('../common/middleware').checkToken;
-const url = 'http://34.207.213.121:3000';
+//const url = 'http://34.207.213.121:3000';
+const url = 'http://3.91.182.21:3000';
 const mv = require('mv');
 const moveFile = require('move-file');
 
@@ -17,10 +18,9 @@ exports.uploadImage = async function(req, res) {
         const items = qureyResponse.data.items;
         console.log('file', req.files)
         console.log('body', req.body);
-
-        const { childName } = req.body;
+        const { index } = req.body;
         if (items.length > 0) { //if user found then change password
-          let dir = `uploads/${username}/${childName}`;
+          let dir = `uploads/${username}/child${index}`;
           if (!fs.existsSync(dir)){
             fs.mkdir(dir, {recursive: true}, err => {});
 

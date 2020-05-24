@@ -1,5 +1,8 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3000'
+//const url = 'http://34.207.213.121:3000'; existing prod url
+const url = 'http://3.91.182.21:3000';
+//const mileStoneUrl = 'http://34.207.213.121:3002';
+const mileStoneUrl = 'http://3.91.182.21:3002';
 const checkToken = require('../common/middleware').checkToken;
 const emptyVaccinesData = require('../data/vaccinesempty.json');
 const milestone = require('../data/milestone.json');
@@ -10,7 +13,7 @@ exports.createChild = async function(req, res) {
    if(result.success) {
       const { data } = result;
       const { username } = data;
-      const { gender, name, dob, relation } = req.body;
+      const { gender, name, dob } = req.body;
       const queryResponse = await axios.get(`${url}/queryDataByKey?stream=bb_stream&key=${username}`);
       const items = queryResponse.data.items;
       const userObject = JSON.parse(items[items.length-1].data);
@@ -59,18 +62,21 @@ exports.createChild = async function(req, res) {
      const tenToTwelveYears = new Date(dobConverted).addDays(4015);
      const tenToTwelveYearsDate = `${tenToTwelveYears.getDate()}/${tenToTwelveYears.getMonth()+1}/${tenToTwelveYears.getFullYear()}`;
      emptyVaccines['10-12 Years'].dueDate = tenToTwelveYearsDate;
-     const child = { child: { gender, name, dob, relation }, childVaccines: emptyVaccines };
+     const child = { child: { gender, name, dob }, childVaccines: emptyVaccines };
      const children = userObject.children ? [...userObject.children, child] : [child];
-     const newUserObject = {...userObject, child: { gender, name, dob, relation }, childVaccines: emptyVaccines , children}; //remove child and childvaccines after the next release
+     const newUserObject = {...userObject, children}; //remove child and childvaccines after the next release
      const stream = {
         "stream": "bb_stream",
         "key": key,
         "data": newUserObject
       }
+
+     const mileStoneResponse = await axios.get(`${mileStoneUrl}/queryMileStoneData?stream=bb_data_stream&key=${username}`);
+     const mileStoneData = userObject.children  ? [...JSON.parse(mileStoneResponse.data.items), milestone] : [milestone];
       const milestoneStream = {
         "stream": "bb_data_stream",
         "key": key,
-        "data": milestone
+        "data": mileStoneData
       }
       const response = await axios.post(`${url}/registerUser`, stream);
       await axios.post(`${url}/registerMilestone`, milestoneStream);
