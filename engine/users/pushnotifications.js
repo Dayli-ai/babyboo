@@ -1,9 +1,6 @@
 const axios = require('axios');
-const url = 'http://34.207.213.121:3002/queryStreamKeys?stream=bb_stream';
-//const url = 'http://3.91.182.21:3002/queryStreamKeys?stream=bb_stream';
-const url1 = 'http://34.207.213.121:3000';
-//const url1 = 'http://3.91.182.21:3000';
-
+const MS_ENGINE_URL = process.env.MS_ENGINE_URL;
+const MC_ENGINE_URL = process.env.MC_ENGINE_URL;
 async function asyncForEach(array, callback) {
   for (let index = 0; index < array.length; index++) {
     await callback(array[index], index, array);
@@ -11,7 +8,7 @@ async function asyncForEach(array, callback) {
 }
 
 const checkAndPushNotifications = async () => {
-  const result = await axios.get(url);
+  const result = await axios.get(`${process.env.MS_ENGINE_URL}/queryStreamKeys?stream = bb_stream`);
   const users = result.data.items;
   const stream = 'bb_stream';
   console.log('Total Users', users.length);
@@ -19,7 +16,7 @@ const checkAndPushNotifications = async () => {
     console.log('index', index);
     try {
       const response = await axios.get(
-        `${url1}/queryDataByKey?stream=${stream}&key=${user}`,
+        `${MC_ENGINE_URL}/queryDataByKey?stream=${stream}&key=${user}`,
       );
       const items = response.data.items;
       let data = {};
@@ -37,16 +34,16 @@ const checkAndPushNotifications = async () => {
         await asyncForEach(keys, async (key, index) => {
           const dueDate = childVaccines[key].dueDate;
           const dueDateArray = dueDate.split("/");
-          const [dd, mm, yyyy ] = dueDateArray;
+          const [dd, mm, yyyy] = dueDateArray;
           const dateFormatted = `${yyyy}-${mm}-${dd}`;
           const childDueDate = new Date(dateFormatted);
-          const dueDateString = childDueDate.getDate() + '/' + (childDueDate.getMonth()+1)+ '/' + childDueDate.getFullYear();
+          const dueDateString = childDueDate.getDate() + '/' + (childDueDate.getMonth() + 1) + '/' + childDueDate.getFullYear();
 
           let reminderDate = new Date().addDays(2); // To send reminder before 2 days
-          let reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
+          let reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth() + 1) + '/' + reminderDate.getFullYear();
           console.log(`2 days Reminder Date, ${reminderDateString} for ${user}`);
 
-          if(reminderDateString === dueDateString) {
+          if (reminderDateString === dueDateString) {
             // If reminder date is equal to due date send notification
             console.log(`sending push notification for user ${user} ${key}`)
             const notificationData = {
@@ -66,7 +63,7 @@ const checkAndPushNotifications = async () => {
             };
             axios.defaults.headers.common[
               'Authorization'
-              ] = `key=AAAAVD9hswU:APA91bGTDcpQtJiISU9yPvzdbb0Hkg9BjXGKtZ2rJQKxFUCTKXQqVPYhnx6nGs4kGxJlZBZaX2PPKSGKyqis9TSW_fjtcmft_BYweHts9shrjU_jdaTqPFHoSNXMxhxA3m-WxKWTbnkb`;
+            ] = `key=AAAAVD9hswU:APA91bGTDcpQtJiISU9yPvzdbb0Hkg9BjXGKtZ2rJQKxFUCTKXQqVPYhnx6nGs4kGxJlZBZaX2PPKSGKyqis9TSW_fjtcmft_BYweHts9shrjU_jdaTqPFHoSNXMxhxA3m-WxKWTbnkb`;
             await axios.post(
               'https://fcm.googleapis.com/fcm/send',
               notificationData,
@@ -74,9 +71,9 @@ const checkAndPushNotifications = async () => {
           }
 
           reminderDate = new Date().addDays(1);// To send reminder before 1 day
-          reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth()+1) + '/' + reminderDate.getFullYear();
+          reminderDateString = reminderDate.getDate() + '/' + (reminderDate.getMonth() + 1) + '/' + reminderDate.getFullYear();
           console.log(`1 day Reminder Date, ${reminderDateString} for ${user}`);
-          if(reminderDateString === dueDateString) {
+          if (reminderDateString === dueDateString) {
             // If reminder date is equal to due date send notification
             console.log(`sending push notification for user ${user} ${key}`)
             const notificationData = {
@@ -96,7 +93,7 @@ const checkAndPushNotifications = async () => {
             };
             axios.defaults.headers.common[
               'Authorization'
-              ] = `key=AAAAVD9hswU:APA91bGTDcpQtJiISU9yPvzdbb0Hkg9BjXGKtZ2rJQKxFUCTKXQqVPYhnx6nGs4kGxJlZBZaX2PPKSGKyqis9TSW_fjtcmft_BYweHts9shrjU_jdaTqPFHoSNXMxhxA3m-WxKWTbnkb`;
+            ] = `key=AAAAVD9hswU:APA91bGTDcpQtJiISU9yPvzdbb0Hkg9BjXGKtZ2rJQKxFUCTKXQqVPYhnx6nGs4kGxJlZBZaX2PPKSGKyqis9TSW_fjtcmft_BYweHts9shrjU_jdaTqPFHoSNXMxhxA3m-WxKWTbnkb`;
             await axios.post(
               'https://fcm.googleapis.com/fcm/send',
               notificationData,

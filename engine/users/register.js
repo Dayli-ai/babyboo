@@ -1,8 +1,6 @@
 const axios = require('axios');
 const nodemailer = require('nodemailer');
-
-const url = 'http://34.207.213.121:3000';
-//const url = 'http://3.91.182.21:3000';
+const MC_ENGINE_URL = process.env.MC_ENGINE_URL;
 
 exports.createUser = async (req, res) => {
   const { key, data } = req.body;
@@ -13,14 +11,14 @@ exports.createUser = async (req, res) => {
   };
   try {
     const queryResponse = await axios.get(
-      `${url}/queryDataByKey?stream=bb_stream&key=${key}`,
+      `${MC_ENGINE_URL}/queryDataByKey?stream=bb_stream&key=${key}`,
     );
     const items = queryResponse.data.items;
     if (items.length > 0) {
       res.status(403).json('Username/emailid already exists');
       return;
     }
-    const response = await axios.post(`${url}/registerUser`, userData);
+    const response = await axios.post(`${MC_ENGINE_URL}/registerUser`, userData);
     console.log(response);
     let transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
