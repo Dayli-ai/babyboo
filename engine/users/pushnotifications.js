@@ -8,7 +8,7 @@ async function asyncForEach(array, callback) {
 }
 
 const checkAndPushNotifications = async () => {
-  const result = await axios.get(`${process.env.MS_ENGINE_URL}/queryStreamKeys?stream = bb_stream`);
+  const result = await axios.get(`${process.env.MS_ENGINE_URL}/queryStreamKeys?stream=bb_stream`);
   const users = result.data.items;
   const stream = 'bb_stream';
   console.log('Total Users', users.length);
