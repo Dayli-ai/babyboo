@@ -1,10 +1,10 @@
 const dotenv = require('dotenv').config(),
   express = require('express'),
-  bodyParser = require('body-parser'),
   cors = require('cors'),
   app = express(),
   shell = require('shelljs'),
   fs = require('fs'),
+  morgan = require("morgan"),
   { router, setTimerForNotifications } = require("./routes"),
   path = require('path'),
   dir = path.join(__dirname, '/uploads')
@@ -18,7 +18,8 @@ Date.prototype.addDays = function (days) {
 };
 
 //Middleware declarations
-app.use(bodyParser.json());
+app.use(express.json());
+app.use(morgan("dev"));
 app.options('*', cors());
 app.use(cors());
 app.use('/images', express.static(__dirname + '/uploads/'));
