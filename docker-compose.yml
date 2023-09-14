@@ -1,0 +1,63 @@
+services:
+  traefik:
+    image: "traefik"
+    container_name: "traefik"
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "./acme.json:/acme.json"
+      - "./traefik/traefik.toml:/traefik.toml"
+      - "./traefik/traefik_dynamic.toml:/traefik_dynamic.toml"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  engine:
+    build: "./engine"
+    image: "engine"
+    container_name: "engine"
+    restart: always
+    env_file:
+      - ./env/babyboo.env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.engine.entrypoints=websecure"
+      - "traefik.http.routers.engine.rule=Host(`babyboo.statledger.io`) && PathPrefix(`/api/`)"
+      - "traefik.http.routers.engine.tls=true"
+      - "traefik.http.routers.engine.tls.certresolver=lets-encrypt"
+
+  mc_engine:
+    build: "./mcengine"
+    image: "mc_engine"
+    container_name: "mc_engine"
+    restart: always
+    env_file:
+      - ./env/babyboo.env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.mc_engine.entrypoints=websecure"
+      - "traefik.http.routers.mc_engine.rule=Host(`babyboo.statledger.io`) && PathPrefix(`/mc_engine/`)"
+      - "traefik.http.routers.mc_engine.tls=true"
+      - "traefik.http.routers.mc_engine.tls.certresolver=lets-encrypt"
+
+  ms_engine:
+    build: "./msengine"
+    image: "ms_engine"
+    container_name: "ms_engine"
+    restart: always
+    env_file:
+      - ./env/babyboo.env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.ms_engine.entrypoints=websecure"
+      - "traefik.http.routers.ms_engine.rule=Host(`babyboo.statledger.io`) && PathPrefix(`/ms_engine/`)"
+      - "traefik.http.routers.ms_engine.tls=true"
+      - "traefik.http.routers.ms_engine.tls.certresolver=lets-encrypt"
+
+networks:
+  default:
+    name: proxy
+    external: true
