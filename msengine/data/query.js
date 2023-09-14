@@ -113,9 +113,7 @@ exports.fetchChildData = async function (req, res) {
 var key_arr = new Array();
 
 exports.fetchStreamKeys = function (req, res) {
-    console.log('txId ', req.query);
     const { stream } = req.query;
-
     const multichain = init.getMultichain();
     multichain.listStreamKeys({
         stream: stream,
@@ -125,7 +123,7 @@ exports.fetchStreamKeys = function (req, res) {
         start: 1
     }, (err, data) => {
         key_arr = [];
-        data.forEach(item => {
+        data?.forEach(item => {
             key_arr.push(item.key);
         });
         res.json({ items: key_arr });
