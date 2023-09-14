@@ -7,9 +7,7 @@
 
   [entryPoints.websecure]
     address = ":443"
-  [entryPoints.rabbit]
-    address = ":5672"  
-        
+            
 # [api]
 #   dashboard = true
 
