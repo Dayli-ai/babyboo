@@ -1,19 +1,14 @@
 const dotenv = require('dotenv').config(),
     express = require('express'),
-    bodyParser = require('body-parser'),
     cors = require('cors'),
     app = express(),
-    shell = require('shelljs'),
-    fs = require('fs');
+    router = require("./routes");
 
 //Middleware declarations
-app.use(bodyParser.json());
+app.use(express.json());
 app.options('*', cors())
 app.use(cors());
+app.use('/mc_engine', router);
 
-//Invoke the application
-const routes = require('./routes.js');
-routes(app);
-
-app.listen(3000, () => console.log('Server is up and running on ' + 3000));
+app.listen(3001, () => console.log('Server is up and running on ' + 3001));
 

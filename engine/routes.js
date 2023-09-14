@@ -1,14 +1,13 @@
-'use strict';
+const express = require('express');
+const router = express.Router();
 const pushnotifications = require('./users/pushnotifications');
-
 function setTimerForNotifications() {
+  pushnotifications.checkAndPushNotifications(); //Initial call
   setInterval(() => {
     console.log('Triggering Notifications');
     pushnotifications.checkAndPushNotifications();
   }, 43200 * 1000);
 }
-pushnotifications.checkAndPushNotifications(); //Initial call
-setTimerForNotifications();
 const multer = require('multer');
 //Define all the routes in the server running on multichain cluster
 const Storage = multer.diskStorage({
@@ -19,47 +18,44 @@ const Storage = multer.diskStorage({
     callback(null, `${file.fieldname}_${Date.now()}_${file.originalname}`);
   },
 });
-
 const upload = multer({ storage: Storage });
-module.exports = function routes(app) {
-  //GET routes
-  app.get('/getUserInfo', require('./users/userInfo').getUserInfo);
-  app.get(
-    '/getMilestoneData',
-    require('./users/milestoneInfo').getMilestoneInfo,
-  );
-  app.get(
-    '/',
-    require('./common/middleware').checkToken,
-    require('./users/login').index,
-  );
-  app.get('/getRhymesData', require('./users/rhymes').getRhymesData);
+router.get('/getUserInfo', require('./users/userInfo').getUserInfo);
+router.get(
+  '/getMilestoneData',
+  require('./users/milestoneInfo').getMilestoneInfo,
+);
+router.get(
+  '/',
+  require('./common/middleware').checkToken,
+  require('./users/login').index,
+);
+router.get('/getRhymesData', require('./users/rhymes').getRhymesData);
 
-  //POST routes
-  app.post('/registerUser', require('./users/register').createUser);
-  app.post(
-    '/updateMilestone',
-    require('./users/updateMilestone').updateMilestone,
-  );
-  app.post('/login', require('./users/login').login);
-  app.post('/fblogin', require('./users/fblogin').fblogin);
-  app.post('/forgotPassword', require('./users/forgotPassword').forgotPassword);
-  app.post('/resetPassword', require('./users/resetPassword').resetPassword);
+//POST routes
+router.post('/registerUser', require('./users/register').createUser);
+router.post(
+  '/updateMilestone',
+  require('./users/updateMilestone').updateMilestone,
+);
+router.post('/login', require('./users/login').login);
+router.post('/fblogin', require('./users/fblogin').fblogin);
+router.post('/forgotPassword', require('./users/forgotPassword').forgotPassword);
+router.post('/resetPassword', require('./users/resetPassword').resetPassword);
 
-  app.post('/registerChild', require('./users/registerChild').createChild);
-  app.post(
-    '/updateDeviceToken',
-    require('./users/updateDeviceToken').updateDeviceToken,
-  );
-  app.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
-  app.post(
-    '/uploadImage',
-    upload.array('photo', 3),
-    require('./users/uploadImage').uploadImage,
-  );
-  app.post(
-    '/uploadImg',
-    upload.array('photo', 3),
-    require('./users/uploadImg').uploadImage,
-  );
-};
+router.post('/registerChild', require('./users/registerChild').createChild);
+router.post(
+  '/updateDeviceToken',
+  require('./users/updateDeviceToken').updateDeviceToken,
+);
+router.post('/issueVaccine', require('./users/issueVaccine').issueVaccine);
+router.post(
+  '/uploadImage',
+  upload.array('photo', 3),
+  require('./users/uploadImage').uploadImage,
+);
+router.post(
+  '/uploadImg',
+  upload.array('photo', 3),
+  require('./users/uploadImg').uploadImage,
+);
+module.exports = { router, setTimerForNotifications }
