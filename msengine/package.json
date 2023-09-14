@@ -11,17 +11,19 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "request": "^2.88.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^1.5.0",
     "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.16.3",
+    "jsonwebtoken": "^9.0.2",
+    "log4js": "^6.9.1",
     "multichain-node": "^2.1.6-version1.0.2",
     "shelljs": "^0.8.3",
-    "cors": "^2.8.5",
-    "jsonwebtoken": "^8.3.0"
+    "underscore": "^1.13.6"
   }
 }
