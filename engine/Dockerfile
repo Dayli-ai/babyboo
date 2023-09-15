@@ -6,10 +6,10 @@ WORKDIR /src
 
 COPY package*.json .
 
-RUN npm install
+RUN yarn --production
 
 COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
