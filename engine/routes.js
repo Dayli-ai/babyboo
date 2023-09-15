@@ -1,15 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const pushnotifications = require('./users/pushnotifications');
-function setTimerForNotifications() {
-  pushnotifications.checkAndPushNotifications(); //Initial call
-  setInterval(() => {
-    console.log('Triggering Notifications');
-    pushnotifications.checkAndPushNotifications();
-  }, 43200 * 1000);
-}
 const multer = require('multer');
-//Define all the routes in the server running on multichain cluster
 const Storage = multer.diskStorage({
   destination(req, file, callback) {
     callback(null, './images');
@@ -19,6 +10,7 @@ const Storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage: Storage });
+
 router.get('/getUserInfo', require('./users/userInfo').getUserInfo);
 router.get(
   '/getMilestoneData',
@@ -58,4 +50,14 @@ router.post(
   upload.array('photo', 3),
   require('./users/uploadImg').uploadImage,
 );
+
+const pushnotifications = require('./users/pushnotifications');
+function setTimerForNotifications() {
+  pushnotifications.checkAndPushNotifications(); //Initial call
+  setInterval(() => {
+    console.log('Triggering Notifications');
+    pushnotifications.checkAndPushNotifications();
+  }, 43200 * 1000);
+}
+
 module.exports = { router, setTimerForNotifications }
