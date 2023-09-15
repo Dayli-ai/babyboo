@@ -1,10 +1,8 @@
 const init = require('../common/init');
 const log4js = init.getLog();
 const logger = log4js.getLogger('backend-logs');
-const uilogger = log4js.getLogger('frontend-logs');
 
 exports.fetchDataByKey = function (req, res) {
-  console.log('txId ', req.query);
   try {
     const { stream, key } = req.query;
     const multichain = init.getMultichain();
@@ -17,7 +15,6 @@ exports.fetchDataByKey = function (req, res) {
           txid: txid,
           vout: 0,
         }, (err, data) => {
-          console.log("data", data)
           try {
             //data.forEach(item => {
             data = Buffer.from(data, 'hex').toString('utf8')

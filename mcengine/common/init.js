@@ -1,8 +1,8 @@
 const dotenv = require('dotenv').config();
-var log4js = require('log4js');
+const log4js = require('log4js');
 
 exports.getMultichain = function () {
-    let multichain = require("multichain-node")({
+    const multichain = require("multichain-node")({
         port: process.env.MC_PORT,
         host: process.env.MC_HOST,
         user: process.env.MC_USERNAME,
@@ -13,7 +13,7 @@ exports.getMultichain = function () {
 };
 
 exports.getLog = function () {
-    let log = log4js.configure({ // configure to use all types in different files.
+    const log = log4js.configure({ // configure to use all types in different files.
         appenders: {
             "backend-logs": {
                 type: "file",
@@ -34,8 +34,6 @@ exports.getLog = function () {
             "backend-logs": { "appenders": ["backend-logs"], "level": "info" },
             "frontend-logs": { "appenders": ["frontend-logs"], "level": "info" },
             default: { "appenders": ["backend-logs"], "level": "info" }
-            //{[ "frontend-logs" ],"level": "info" }
-            //"appenders": {["frontend-logs"], "level": "info" }
         }
     });
     return log;

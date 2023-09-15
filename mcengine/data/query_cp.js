@@ -1,7 +1,6 @@
 const init = require('../common/init');
 const log4js = init.getLog();
 const logger = log4js.getLogger('backend-logs');
-const uilogger = log4js.getLogger('frontend-logs');
 
 exports.fetchDataByKey = function (req, res) {
   console.log('txId ', req.query);
