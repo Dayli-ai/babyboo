@@ -3,7 +3,6 @@ const axios = require('axios');
 const fs = require('fs');
 const checkToken = require('../common/middleware').checkToken;
 const MC_ENGINE_URL = process.env.MC_ENGINE_URL
-const mv = require('mv');
 const moveFile = require('move-file');
 
 exports.uploadImage = async function (req, res) {
@@ -21,7 +20,7 @@ exports.uploadImage = async function (req, res) {
         if (items.length > 0) { //if user found then change password
           let dir = `uploads/${username}/child${index}`;
           if (!fs.existsSync(dir)) {
-            fs.mkdir(dir, { recursive: true }, err => { });
+            fs.mkdir(dir, { recursive: true }, err => console.log(err));
 
           }
 

@@ -3,8 +3,8 @@ const axios = require('axios');
 const fs = require('fs');
 const checkToken = require('../common/middleware').checkToken;
 const MC_ENGINE_URL = process.env.MC_ENGINE_URL
-const mv = require('mv');
 const moveFile = require('move-file');
+// const mv = require('mv');
 
 exports.uploadImage = async function (req, res) {
   checkToken(req, res, async result => {

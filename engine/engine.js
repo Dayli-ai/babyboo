@@ -1,18 +1,15 @@
-const dotenv = require('dotenv').config(),
-  express = require('express'),
+const express = require('express'),
   cors = require('cors'),
   app = express(),
-  shell = require('shelljs'),
-  fs = require('fs'),
   morgan = require("morgan"),
   { router, setTimerForNotifications } = require("./routes"),
   path = require('path'),
   dir = path.join(__dirname, '/uploads')
-
+require('dotenv').config();
 app.use(express.static(dir));
 
 Date.prototype.addDays = function (days) {
-  var date = new Date(this.valueOf());
+  const date = new Date(this.valueOf());
   date.setDate(date.getDate() + days);
   return date;
 };

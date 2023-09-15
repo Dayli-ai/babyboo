@@ -13,7 +13,6 @@ exports.login = async function (req, res) {
   } catch (e) {
     res.status(403).json(e.response.data.message);
   }
-
 };
 
 exports.index = async function (req, res) {

@@ -523,7 +523,7 @@ const createTable = rows => {
 </table>
 `
 }
-;
+  ;
 
 /**
  * @description Generate an `html` page with a populated table
@@ -568,8 +568,8 @@ const doesFileExist = filePath => {
   }
 };
 
- const createPDF = (data, child, username, childIndex) => {
-   if(!data) return;
+const createPDF = (data, child, username, childIndex) => {
+  if (!data) return;
   try {
     /* Check if the file for `html` build exists in system or not */
     if (doesFileExist(buildPathHtml)) {
@@ -587,10 +587,12 @@ const doesFileExist = filePath => {
     fs.writeFileSync(buildPathHtml, html);
     console.log('Succesfully created an HTML table');
 
-    const options = { format: 'A4' ,  height: "14.9in",
-      width: "15in"};
+    const options = {
+      format: 'A4', height: "14.9in",
+      width: "15in"
+    };
     const dir = `uploads/${username}/child${childIndex}/index.pdf`;
-    pdf.create(html, options).toFile(dir, function(err, res) {
+    pdf.create(html, options).toFile(dir, function (err, res) {
       if (err) return console.log(err);
       console.log(res); // { filename: '/app/businesscard.pdf' }
     });

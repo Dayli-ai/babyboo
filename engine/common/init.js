@@ -1,4 +1,4 @@
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 const log4js = require('log4js');
 
 exports.getLog = function () {

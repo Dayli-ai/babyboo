@@ -4,7 +4,6 @@ const createPDF = require('../pdfcomponent/createTable');
 const MC_ENGINE_URL = process.env.MC_ENGINE_URL;
 
 exports.issueVaccine = async function (req, res) {
-  const { authorization } = req.headers;
   checkToken(req, res, async result => {
     if (result.success) {
       const { data } = result;

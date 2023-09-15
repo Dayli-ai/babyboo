@@ -1,10 +1,8 @@
 const axios = require('axios');
-const fs = require('fs');
 const MS_ENGINE_URL = process.env.MS_ENGINE_URL
 const checkToken = require('../common/middleware').checkToken;
 
 exports.getMilestoneInfo = async (req, res) => {
-  const { authorization } = req.headers;
   checkToken(req, res, async result => {
     if (result.success) {
       const { username } = result.data;
